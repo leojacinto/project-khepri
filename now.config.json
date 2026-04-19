@@ -1,0 +1,6 @@
+{
+  "scope": "x_snc_khepri",
+  "scopeId": "31ca590e2fdc8f18920fa33fafa4e3fd",
+  "name": "Khepri",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
