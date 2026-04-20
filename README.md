@@ -15,6 +15,8 @@ This effort is NOT testing whether the AI coding agent understands ServiceNow or
 
 **What we ARE proving**: the agent's ability to _create_ the ServiceNow metadata objects that make up a working AI Agent through this interface. Tables, seed data, search pipelines, MCP connections, tool definitions, agent wiring.
 
+Khepri contains the building block objects for creating AI Agents in ServiceNow, assembled from real use cases. The number and variety of objects will increase as more use cases are built with it.
+
 All objects are created from scratch in Khepri scope. Zero cross-scope dependencies.
 
 ---
@@ -322,6 +324,7 @@ The `proficiency` field is also important but is not exposed through the AiAgent
 | Fluent Flow() creates triggered flows, not callable subflows | `Flow()` requires a trigger; agent tools need callable subflows with string inputs | Create flow via Fluent as scaffold, then manually convert to subflow in Flow Designer: remove trigger, add string inputs, add lookUpRecord, rewire actions |
 | Agent subflow tools fail with "Unsupported data type" | Record trigger passes record object; agent passes strings | Subflow must accept string inputs (cost_center, event_id) and lookUpRecord internally |
 | `proficiency` field not in AiAgent API | Type definition omits it | Set manually on instance after install |
+| Agent security controls (Define user access, Define data access) not in AiAgent API | The AiAgent `securityAcl` property only controls the ACL type (Public, Any authenticated user, Specific role). The full security wizard — "Define user access" and "Define data access" — is not exposed through the Fluent API and must be configured manually on the instance after each install. | After install, open the agent record → Define security controls → set user access and data access. Direct link pattern: `https://<instance>/sn_aia_agent.do?sys_id=<agent_sys_id>` |
 | Fluent plugin cannot parse string concatenation | `'a' + 'b'` in property values fails with "Failed to parse property" | Use single string literals with `\n` for multiline |
 | `instructions` field not directly on AiAgent | AiAgent API uses `versionDetails` for instructions | Use `versionDetails: [{ name: 'v1', number: 1, state: 'published', instructions: '...' }]` |
 | `outputs` is not defined in tool scripts | sn_aia_tool script context has no global `outputs` object | Use IIFE pattern: `(function(inputs) { return result; })(inputs);` Every working tool on the platform uses this pattern. |

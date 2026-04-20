@@ -5,6 +5,10 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '16825cfa2f900bd880e0653bcfa4e3e4': {
+                        table: 'ais_ai_agent_semantic_search_configuration_m2m'
+                        id: '16825cfa2f900bd880e0653bcfa4e3e4'
+                    }
                     '78a731ae2f1883d880e0653bcfa4e349': {
                         table: 'sys_app_application'
                         id: '78a731ae2f1883d880e0653bcfa4e349'
@@ -28,6 +32,10 @@ declare global {
                     'br-auto-publish-search-profile': {
                         table: 'sys_script'
                         id: '0ddd7d09c28b4cf68f72ea051c126683'
+                    }
+                    c2825cfa2f900bd880e0653bcfa4e3dd: {
+                        table: 'ais_ai_agent_semantic_search_configuration_m2m'
+                        id: 'c2825cfa2f900bd880e0653bcfa4e3dd'
                     }
                     'csp-aia-agent-config-create': {
                         table: 'sys_scope_privilege'
@@ -153,6 +161,16 @@ declare global {
                         table: 'sys_scope_privilege'
                         id: '5f3f2b6a1a6042c18c1e6dda2dd4c7b6'
                     }
+                    e677e97177c74c04aa3167dc99859a2f: {
+                        table: 'ais_search_source'
+                        id: 'e677e97177c74c04aa3167dc99859a2f'
+                        deleted: true
+                    }
+                    e6d00768a73e43668401dc684d8ace18: {
+                        table: 'ais_datasource'
+                        id: 'e6d00768a73e43668401dc684d8ace18'
+                        deleted: true
+                    }
                     'fv-cc-budget-0': {
                         table: 'x_snc_khepri_cc_budget_history'
                         id: 'e20d38c506cb4d169f12061d07803fa8'
@@ -197,6 +215,10 @@ declare global {
                         table: 'x_snc_khepri_cc_budget_history'
                         id: '1d2aec8f7e384355ab501c5f4b7cedf9'
                     }
+                    'fv-cc-budget-datasource-v2': {
+                        table: 'ais_datasource'
+                        id: 'bed6a7a5729042149ad7e672ee7530ad'
+                    }
                     'fv-cc-budget-ds-attr': {
                         table: 'ais_datasource_attribute'
                         id: 'c64cfe18fe3d4a829fe706cf2cfe44c8'
@@ -220,6 +242,10 @@ declare global {
                     'fv-cc-budget-search-profile': {
                         table: 'ais_search_profile'
                         id: '3e160b91e88f48cebdd3fdacb4dd7e98'
+                    }
+                    'fv-cc-budget-search-source-v2': {
+                        table: 'ais_search_source'
+                        id: 'f77edf5520c249a69d7f1ae5c42f7d7e'
                     }
                     'fv-cc-budget-semantic-index': {
                         table: 'ais_semantic_index_configuration'
@@ -273,6 +299,10 @@ declare global {
                         table: 'x_snc_khepri_expense_transactions'
                         id: '38848f09e16f418f95d14bee375a7aa1'
                     }
+                    'fv-expense-datasource-v2': {
+                        table: 'ais_datasource'
+                        id: 'a34fcff421f94bb0b20691c7409c6fa1'
+                    }
                     'fv-expense-ds-attr': {
                         table: 'ais_datasource_attribute'
                         id: '1c5846f10450406391e3885c8e032f47'
@@ -297,6 +327,10 @@ declare global {
                         table: 'ais_search_profile'
                         id: '8fc43a23c6c64cc0b2c138b78140149a'
                     }
+                    'fv-expense-search-source-v2': {
+                        table: 'ais_search_source'
+                        id: '01d3288c838646dfa8bf7f1ce31d4de6'
+                    }
                     'fv-expense-semantic-index': {
                         table: 'ais_semantic_index_configuration'
                         id: '4f34c9a8d24c454289fa63ca210f09ec'
@@ -309,13 +343,27 @@ declare global {
                         table: 'sn_aia_agent'
                         id: '1134f66ab132451b923710e6b1cb8786'
                     }
+                    'fv-khepri-agent-acl': {
+                        table: 'sys_security_acl'
+                        id: 'b8a95bbd0f4e4f3f920ced709593ba91'
+                    }
                     'khepri-auto-publish-job': {
                         table: 'sysauto_script'
                         id: 'd3c1ff4cc8b14f24b6bc1cf1194b793c'
                     }
+                    'khepri-budget-datasource-v2': {
+                        table: 'ais_datasource'
+                        id: 'e6d00768a73e43668401dc684d8ace18'
+                        deleted: true
+                    }
                     'khepri-budget-search-profile': {
                         table: 'ais_search_profile'
                         id: 'fd5a54ef37584f488eb379dea710b369'
+                    }
+                    'khepri-budget-search-source-v2': {
+                        table: 'ais_search_source'
+                        id: 'e677e97177c74c04aa3167dc99859a2f'
+                        deleted: true
                     }
                     'khepri-mcp-alias': {
                         table: 'sys_alias'
@@ -328,6 +376,14 @@ declare global {
                     'khepri-mcp-credential': {
                         table: 'api_key_credentials'
                         id: 'aeddb7abcecf49649fb412959ee044c1'
+                    }
+                    KhepriBudgetVarianceAnalysis: {
+                        table: 'sys_script_include'
+                        id: 'e11775d15e08423ca4a515ab5f8b8649'
+                    }
+                    KhepriExtractCostCenter: {
+                        table: 'sys_script_include'
+                        id: 'f83b3568ac364deba1c73a20d7f8b6bf'
                     }
                     package_json: {
                         table: 'sys_module'
@@ -397,6 +453,7 @@ declare global {
                     {
                         table: 'sn_aia_agent_tool_m2m'
                         id: '0f778e9f44ea43c5b4bd13c55d518923'
+                        deleted: true
                         key: {
                             agent: '53e05c74f31d4534afddc3aff5609449'
                             tool: '0768f1dffbd246a0b1e59e5dd0b64962'
@@ -489,6 +546,14 @@ declare global {
                             name: 'x_snc_khepri_expense_transactions'
                             element: 'NULL'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '311f105d7d8b422283b7969a19253ee3'
+                        key: {
+                            sys_security_acl: 'b8a95bbd0f4e4f3f920ced709593ba91'
+                            sys_user_role: 'b0593b350a0a0aa7001d689e4542dc28'
                         }
                     },
                     {
@@ -673,6 +738,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sn_aia_agent_tool_m2m'
+                        id: '613e6009f0b94d31a0c34fe348a38bfb'
+                        key: {
+                            agent: '1134f66ab132451b923710e6b1cb8786'
+                            tool: '8062c1f0c9194223b23b1a0c28e5606a'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '61d9ffcee36c41438790dae64c412518'
                         key: {
@@ -784,6 +857,7 @@ declare global {
                     {
                         table: 'sn_aia_agent_tool_m2m'
                         id: '7fe67b20ecf0426886852551e53c1419'
+                        deleted: true
                         key: {
                             agent: '53e05c74f31d4534afddc3aff5609449'
                             tool: 'b85683d49c334deb9020b0818dbc5764'
@@ -919,6 +993,14 @@ declare global {
                             name: 'x_snc_khepri_expense_transactions'
                             element: 'gl_account'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_agent_tool_m2m'
+                        id: 'a3ead1b239654021b9f82f3c5bfa6602'
+                        key: {
+                            agent: '1134f66ab132451b923710e6b1cb8786'
+                            tool: 'e60f652a11a54b738b895b9d0d670999'
                         }
                     },
                     {
@@ -1164,6 +1246,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sn_aia_agent_tool_m2m'
+                        id: 'd932a0dd78f340689f5d5b4e3d634fb7'
+                        key: {
+                            agent: '1134f66ab132451b923710e6b1cb8786'
+                            tool: 'fa3848dca2dc4148b93fdba3b9c92295'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'da9e1b7f3e2e406ab3820662c718d778'
                         key: {
@@ -1247,6 +1337,7 @@ declare global {
                     {
                         table: 'sn_aia_agent_tool_m2m'
                         id: 'ed3bcab396e144a19b400e81c682eeb2'
+                        deleted: true
                         key: {
                             agent: '53e05c74f31d4534afddc3aff5609449'
                             tool: 'ba8a43a9dd034717aa2e24697bd725d3'
@@ -1317,6 +1408,14 @@ declare global {
                         id: 'fa3848dca2dc4148b93fdba3b9c92295'
                         key: {
                             name: 'Khepri Neon SQL Query'
+                        }
+                    },
+                    {
+                        table: 'sys_agent_access_role_configuration'
+                        id: 'fb6398f22fd00bd880e0653bcfa4e3d4'
+                        deleted: true
+                        key: {
+                            agent: '1134f66ab132451b923710e6b1cb8786'
                         }
                     },
                     {

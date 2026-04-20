@@ -1,35 +1,23 @@
 import '@servicenow/sdk/global'
 import { Record } from '@servicenow/sdk/core'
 
-// =====================================================
 // FORECAST VARIANCE KHEPRI: Search Pipelines + Tool M2Ms
-//
-// CORRECT PATTERN (copied from working FV app x_snc_forecast_v_0):
-//   ais_datasource_field_attribute — maps fields to title/text roles
-//   ais_datasource_attribute — datasource-level settings
-//
-// DEPRECATED (does NOT trigger indexing):
-//   ais_datasource_semantic_field_m2m — do NOT use
-//
-// After install, user must manually trigger indexing from
-// AI Search Admin Console → Datasource → Index Now
-// =====================================================
+// Field attribute pattern from working FV app x_snc_forecast_v_0
+// After install, trigger indexing from AI Search Admin Console
 
-// === Field attribute reference ===
-// attribute: f734a634c7320010d1cfd9795cc26094 = "content_type" (field role: title/text)
-// attribute: 2dd8f14753320010ffaaddeeff7b1293 = datasource-level setting (value: false)
+// Field attribute reference:
+// attribute: f734a634c7320010d1cfd9795cc26094 (content_type: title/text)
+// attribute: 2dd8f14753320010ffaaddeeff7b1293 (datasource-level: false)
 
-// === PIPELINE 1: CC Budget History ===
+// PIPELINE 1: CC Budget History
 
-// Search Application (sys_search_context_config) — copied from working FV app
-// All field values identical to FV except name and search_profile reference
 export const fvCcBudgetSearchApp = Record({
     $id: Now.ID['fv-cc-budget-search-app'],
     table: 'sys_search_context_config',
     data: {
         name: 'Khepri CC Budget History Search Application',
         search_engine: 'ai_search',
-        search_profile: '8d3c1e8838cc4ee28b415ce05274e0ff',
+        search_profile: '3e160b91e88f48cebdd3fdacb4dd7e98',
         search_results_limit: '10',
         suggestions_to_show_limit: '10',
         document_match_count: '3',
@@ -49,8 +37,6 @@ export const fvCcBudgetSearchApp = Record({
     },
 })
 
-// Semantic snippetization config — copied from FV app
-// Defines how text is chunked for semantic search
 export const fvCcBudgetSnippetConfig = Record({
     $id: Now.ID['fv-cc-budget-snippet-config'],
     table: 'ais_semantic_snippetization_configuration',
@@ -63,8 +49,6 @@ export const fvCcBudgetSnippetConfig = Record({
     },
 })
 
-// Semantic index configuration — links datasource to embedding model + snippetization
-// embedding_models: c153d0f2432302104611495d9bb8f2ec (platform default)
 export const fvCcBudgetSemanticIndex = Record({
     $id: Now.ID['fv-cc-budget-semantic-index'],
     table: 'ais_semantic_index_configuration',
@@ -74,16 +58,15 @@ export const fvCcBudgetSemanticIndex = Record({
         active: 'true',
         embedding_models: 'c153d0f2432302104611495d9bb8f2ec',
         conflict: 'false',
-        semantic_snippetization_configuration: '8fe647da2fd48b58920fa33fafa4e3db',
+        semantic_snippetization_configuration: '26b368bc56ff4993b165bacd26af7be1',
     },
 })
 
-// Datasource field attributes (tells AIS which fields to index and their roles)
 export const fvCcBudgetFieldAttr_costCenter = Record({
     $id: Now.ID['fv-cc-budget-fa-cost-center'],
     table: 'ais_datasource_field_attribute',
     data: {
-        datasource: '53e8cd29e882462880f8f9f8dc9a509d',
+        datasource: 'bed6a7a5729042149ad7e672ee7530ad',
         source: 'x_snc_khepri_cc_budget_history',
         field: 'cost_center',
         attribute: 'f734a634c7320010d1cfd9795cc26094',
@@ -95,7 +78,7 @@ export const fvCcBudgetFieldAttr_description = Record({
     $id: Now.ID['fv-cc-budget-fa-description'],
     table: 'ais_datasource_field_attribute',
     data: {
-        datasource: '53e8cd29e882462880f8f9f8dc9a509d',
+        datasource: 'bed6a7a5729042149ad7e672ee7530ad',
         source: 'x_snc_khepri_cc_budget_history',
         field: 'cost_center_description',
         attribute: 'f734a634c7320010d1cfd9795cc26094',
@@ -103,19 +86,17 @@ export const fvCcBudgetFieldAttr_description = Record({
     },
 })
 
-// Datasource-level attribute
 export const fvCcBudgetDatasourceAttr = Record({
     $id: Now.ID['fv-cc-budget-ds-attr'],
     table: 'ais_datasource_attribute',
     data: {
-        datasource: '53e8cd29e882462880f8f9f8dc9a509d',
+        datasource: 'bed6a7a5729042149ad7e672ee7530ad',
         source: 'x_snc_khepri_cc_budget_history',
         attribute: '2dd8f14753320010ffaaddeeff7b1293',
         value: 'false',
     },
 })
 
-// Search profile
 export const fvCcBudgetSearchProfile = Record({
     $id: Now.ID['fv-cc-budget-search-profile'],
     table: 'ais_search_profile',
@@ -130,23 +111,21 @@ export const fvCcBudgetSearchProfile = Record({
     },
 })
 
-// Profile-source M2M (hardcoded sys_ids from platform)
 export const fvCcBudgetProfileSourceM2M = Record({
     $id: Now.ID['fv-cc-budget-profile-source-m2m'],
     table: 'ais_search_profile_ais_search_source_m2m',
     data: {
-        profile: '8d3c1e8838cc4ee28b415ce05274e0ff',
-        search_source: '30f3d0ef656f44ff92d554b399a0da43',
+        profile: '3e160b91e88f48cebdd3fdacb4dd7e98',
+        search_source: 'f77edf5520c249a69d7f1ae5c42f7d7e',
     },
 })
 
-// RAG tool M2M: CC Budget History -> Agent
 export const fvKhepriToolSearchCCHist = Record({
     $id: Now.ID['fv-khepri-tool-search-cc-hist'],
     table: 'sn_aia_agent_tool_m2m',
     data: {
-        agent: '53e05c74f31d4534afddc3aff5609449',
-        tool: '0768f1dffbd246a0b1e59e5dd0b64962',
+        agent: '1134f66ab132451b923710e6b1cb8786',
+        tool: '8062c1f0c9194223b23b1a0c28e5606a',
         name: 'Search for Cost Center History',
         description:
             'STEP 2. Take the cost_center from "Extract Cost Center" output and use it as the search query. Evaluate whether the cost center is mostly "On Target", "Over Budget", or "Under Budget" across fiscal months.',
@@ -192,16 +171,15 @@ export const fvKhepriToolSearchCCHist = Record({
     },
 })
 
-// === PIPELINE 2: Expense Transactions ===
+// PIPELINE 2: Expense Transactions
 
-// Search Application (sys_search_context_config) — copied from working FV app
 export const fvExpenseSearchApp = Record({
     $id: Now.ID['fv-expense-search-app'],
     table: 'sys_search_context_config',
     data: {
         name: 'Khepri Expense Transactions Search Application',
         search_engine: 'ai_search',
-        search_profile: 'a4489a241b0c4b44bd40086b702adde6',
+        search_profile: '8fc43a23c6c64cc0b2c138b78140149a',
         search_results_limit: '10',
         suggestions_to_show_limit: '10',
         document_match_count: '3',
@@ -221,7 +199,6 @@ export const fvExpenseSearchApp = Record({
     },
 })
 
-// Semantic snippetization config — copied from FV app
 export const fvExpenseSnippetConfig = Record({
     $id: Now.ID['fv-expense-snippet-config'],
     table: 'ais_semantic_snippetization_configuration',
@@ -234,7 +211,6 @@ export const fvExpenseSnippetConfig = Record({
     },
 })
 
-// Semantic index configuration — links datasource to embedding model + snippetization
 export const fvExpenseSemanticIndex = Record({
     $id: Now.ID['fv-expense-semantic-index'],
     table: 'ais_semantic_index_configuration',
@@ -244,16 +220,15 @@ export const fvExpenseSemanticIndex = Record({
         active: 'true',
         embedding_models: 'c153d0f2432302104611495d9bb8f2ec',
         conflict: 'false',
-        semantic_snippetization_configuration: '33e6cf5e2fd48b58920fa33fafa4e397',
+        semantic_snippetization_configuration: '9a8546121c5243958fb3eddb79b636a6',
     },
 })
 
-// Datasource field attributes
 export const fvExpenseFieldAttr_vendor = Record({
     $id: Now.ID['fv-expense-fa-vendor'],
     table: 'ais_datasource_field_attribute',
     data: {
-        datasource: '83195ee15ef248fda68c14c4265de528',
+        datasource: 'a34fcff421f94bb0b20691c7409c6fa1',
         source: 'x_snc_khepri_expense_transactions',
         field: 'vendor',
         attribute: 'f734a634c7320010d1cfd9795cc26094',
@@ -265,7 +240,7 @@ export const fvExpenseFieldAttr_description = Record({
     $id: Now.ID['fv-expense-fa-description'],
     table: 'ais_datasource_field_attribute',
     data: {
-        datasource: '83195ee15ef248fda68c14c4265de528',
+        datasource: 'a34fcff421f94bb0b20691c7409c6fa1',
         source: 'x_snc_khepri_expense_transactions',
         field: 'description',
         attribute: 'f734a634c7320010d1cfd9795cc26094',
@@ -273,19 +248,17 @@ export const fvExpenseFieldAttr_description = Record({
     },
 })
 
-// Datasource-level attribute
 export const fvExpenseDatasourceAttr = Record({
     $id: Now.ID['fv-expense-ds-attr'],
     table: 'ais_datasource_attribute',
     data: {
-        datasource: '83195ee15ef248fda68c14c4265de528',
+        datasource: 'a34fcff421f94bb0b20691c7409c6fa1',
         source: 'x_snc_khepri_expense_transactions',
         attribute: '2dd8f14753320010ffaaddeeff7b1293',
         value: 'false',
     },
 })
 
-// Search profile
 export const fvExpenseSearchProfile = Record({
     $id: Now.ID['fv-expense-search-profile'],
     table: 'ais_search_profile',
@@ -300,23 +273,21 @@ export const fvExpenseSearchProfile = Record({
     },
 })
 
-// Profile-source M2M (hardcoded sys_ids from platform)
 export const fvExpenseProfileSourceM2M = Record({
     $id: Now.ID['fv-expense-profile-source-m2m'],
     table: 'ais_search_profile_ais_search_source_m2m',
     data: {
-        profile: 'a4489a241b0c4b44bd40086b702adde6',
-        search_source: '8b0c604638e047c88cb0b9c4ec9890af',
+        profile: '8fc43a23c6c64cc0b2c138b78140149a',
+        search_source: '01d3288c838646dfa8bf7f1ce31d4de6',
     },
 })
 
-// RAG tool M2M: Expense Transactions -> Agent
 export const fvKhepriToolSearchExpenses = Record({
     $id: Now.ID['fv-khepri-tool-search-expenses'],
     table: 'sn_aia_agent_tool_m2m',
     data: {
-        agent: '53e05c74f31d4534afddc3aff5609449',
-        tool: 'b85683d49c334deb9020b0818dbc5764',
+        agent: '1134f66ab132451b923710e6b1cb8786',
+        tool: 'e60f652a11a54b738b895b9d0d670999',
         name: 'Search for Expense Transactions History',
         description:
             'STEP 3. Take the cost_center AND vendor from "Extract Cost Center" output and use them as the search query. Indicate whether the same vendor has transacted with this cost center in the past.',
@@ -364,16 +335,15 @@ export const fvKhepriToolSearchExpenses = Record({
     },
 })
 
-// MCP tool M2M: Neon SQL Query -> Agent
 export const fvKhepriToolNeonMcp = Record({
     $id: Now.ID['fv-khepri-tool-neon-mcp'],
     table: 'sn_aia_agent_tool_m2m',
     data: {
-        agent: '53e05c74f31d4534afddc3aff5609449',
-        tool: 'ba8a43a9dd034717aa2e24697bd725d3',
+        agent: '1134f66ab132451b923710e6b1cb8786',
+        tool: 'fa3848dca2dc4148b93fdba3b9c92295',
         name: 'Query Neon Database via MCP',
         description:
-            'STEP 2b (run in parallel with Step 2). Secondary validation. Use projectId: shy-base-71725149 (camelCase, not project_id). Execute SQL: SELECT cost_center, actual_amount_usd, baseline_amount_usd, variance, variance_pct FROM "VARIANCE_BASELINE_V" WHERE cost_center = \'{{cost_center}}\' LIMIT 1.',
+            'STEP 2b (run in parallel with Step 2). Secondary validation. Use projectId: shy-base-71725149 (camelCase, not project_id). Execute SQL: SELECT cost_center, actual_amount_usd, baseline_amount_usd, variance, variance_pct FROM "VARIANCE_BASELINE_V" WHERE cost_center LIMIT 1.',
         active: 'true',
         execution_mode: 'autopilot',
         display_output: 'true',

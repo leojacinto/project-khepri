@@ -1,18 +1,30 @@
 import '@servicenow/sdk/global'
-import { Record } from '@servicenow/sdk/core'
+import { ScriptInclude, Record } from '@servicenow/sdk/core'
 
-// =====================================================
-// Script Include: Extract Cost Center
+// --- ScriptInclude: KhepriExtractCostCenter ---
 // Queries x_snc_khepri_expense_event for event data
-// =====================================================
-// =====================================================
-// Script Include: Budget Variance Analysis
+export const KhepriExtractCostCenter = ScriptInclude({
+    $id: Now.ID['KhepriExtractCostCenter'],
+    name: 'KhepriExtractCostCenter',
+    script: Now.include('../../server/script-includes/khepri-extract-cost-center.js'),
+    description: 'Extract cost center, vendor, and amount from the latest expense transaction event or by event ID. Queries the x_snc_khepri_expense_event table.',
+    accessibleFrom: 'public',
+    active: true,
+})
+
+// --- ScriptInclude: KhepriBudgetVarianceAnalysis ---
 // Computes projected variance and returns assessment
-// =====================================================
-// =====================================================
-// sn_aia_tool: Extract Cost Center (type: custom/script)
-// Replaces the Forecast Variance subflow tool
-// =====================================================
+export const KhepriBudgetVarianceAnalysis = ScriptInclude({
+    $id: Now.ID['KhepriBudgetVarianceAnalysis'],
+    name: 'KhepriBudgetVarianceAnalysis',
+    script: Now.include('../../server/script-includes/khepri-budget-variance-analysis.js'),
+    description: 'Runs budget variance analysis for a cost center. Looks up budget history, computes projected variance against an expense event amount, creates a Finance Case, and returns an assessment.',
+    accessibleFrom: 'public',
+    active: true,
+})
+
+// --- sn_aia_tool: Khepri Extract Cost Center (standalone) ---
+// This is a SEPARATE tool record from the inline one on the AiAgent.
 export const khepriExtractCostCenterTool = Record({
     $id: Now.ID['khepri-extract-cc-tool'],
     table: 'sn_aia_tool',
@@ -34,6 +46,3 @@ export const khepriExtractCostCenterTool = Record({
         ]),
     },
 })
-
-// Budget Variance Analysis is now a Flow, not a script tool.
-// See src/fluent/flows/budget-variance-analysis.now.ts

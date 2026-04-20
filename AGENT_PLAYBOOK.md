@@ -4,6 +4,8 @@
 
 Read this ENTIRE file before writing any code. Every rule exists because the agent failed without it.
 
+Khepri contains the building block objects for creating AI Agents in ServiceNow, assembled from real use cases. The number and variety of objects will increase as more use cases are built with it.
+
 > **Instance**: `<YOUR_INSTANCE>.service-now.com`
 > **Scope**: `x_snc_khepri` (`31ca590e2fdc8f18920fa33fafa4e3fd`)
 > **SDK**: Fluent 4.6.0
@@ -185,6 +187,7 @@ Record({
 2. `install` → note new sys_ids in output
 3. Run [Post-Install Verification](#post-install-verification)
 4. If first install (no hardcoded sys_ids yet): query for sys_ids, update Fluent files, rebuild + reinstall
+5. **Configure agent security controls manually** — open the agent record on the instance → Define security controls → set **Define user access** and **Define data access**. These are NOT set by the AiAgent API. Always provide the user with a direct link: `https://<instance>/sn_aia_agent.do?sys_id=<agent_sys_id>`
 
 ### Step 7: Tool script template
 
@@ -518,6 +521,8 @@ Every constraint below was discovered through failure. Do not rediscover them.
 | Fluent `Flow()` ≠ callable subflow | `Flow()` requires trigger; agents need string inputs | Manual conversion in Flow Designer |
 | Agent subflow tools: "Unsupported data type" | Trigger passes record object, agent passes strings | Accept string inputs + lookUpRecord inside subflow |
 | `proficiency` not in AiAgent API | Type definition omits it | Set manually on instance |
+| Agent security controls not in AiAgent API | The AiAgent `securityAcl` property only sets the ACL type (Public / Any authenticated user / Specific role). The full security wizard — **Define user access** and **Define data access** — is not exposed through the Fluent API. | After every install, open the agent record on the instance → Define security controls → configure user access and data access. The agent MUST include a direct link: `https://<instance>/sn_aia_agent.do?sys_id=<agent_sys_id>`. This is a mandatory manual step for every agent. |
+| ScriptIncludes need explicit `ScriptInclude()` Fluent definitions | `.js` files under `src/server/script-includes/` compile as `sys_module` records, NOT as `sys_script_include` records. Agent tool scripts that call `new ClassName()` will fail with `"ClassName" is not defined` if there is no `ScriptInclude()` definition. | For every ScriptInclude class used by agent tools: create a `ScriptInclude()` definition in a `.now.ts` file with `script: Now.include('../../server/script-includes/filename.js')` and `accessibleFrom: 'public'`. The `name` must match the `Class.create()` variable name and the `type` property in the prototype. |
 | String concatenation in properties | `'a' + 'b'` fails Fluent parser | Use `\n` in single string |
 | `instructions` not directly on AiAgent | Uses `versionDetails` | `versionDetails: [{ instructions: '...' }]` |
 | Static `Record()` calls only | `forEach` loops silently drop seed data | One exported Record() per row |
@@ -545,6 +550,13 @@ Every constraint below was discovered through failure. Do not rediscover them.
 - [ ] Install succeeds
 - [ ] Post-install verification passes (all 5 checks)
 - [ ] Agent tested in Now Assist — all tools fire
+
+### Post-install manual steps (every agent, every install)
+
+- [ ] **Define user access** — open agent record → Define security controls → Define user access. Set who can invoke the agent. Direct link: `https://<instance>/sn_aia_agent.do?sys_id=<agent_sys_id>`
+- [ ] **Define data access** — same agent record → Define security controls → Define data access. Set what data the agent can access.
+- [ ] **Set proficiency** — not in AiAgent API. Set manually on the agent record.
+- [ ] **Configure indexed sources for semantic search** — the Fluent Record() API creates `ais_datasource`, `ais_datasource_field_attribute`, and `ais_semantic_index_configuration` records, but the AI Search Admin Console requires a manual step to select which fields to include in the semantic index. For each indexed source: open in AI Search Admin Console → select fields for semantic indexing (title/text roles) → Save → Index Now. Without this step, RAG tools will return no results. Always provide direct links to each `ais_datasource` record and a table listing which fields to pick and their roles (title vs text).
 
 ### When cloning from an existing agent
 
