@@ -5,6 +5,10 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '78a731ae2f1883d880e0653bcfa4e349': {
+                        table: 'sys_app_application'
+                        id: '78a731ae2f1883d880e0653bcfa4e349'
+                    }
                     'bh-hr-Symbol(Now.UNRESOLVED)': {
                         table: 'x_snc_khepri_budget_history'
                         id: '2c328959f7aa421e95c66b096ec9920e'
@@ -469,6 +473,13 @@ declare global {
                         key: {
                             name: 'x_snc_khepri_budget_history'
                             element: 'owner'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: '30a7b5ae2f1883d880e0653bcfa4e37f'
+                        key: {
+                            name: 'x_snc_khepri.user'
                         }
                     },
                     {

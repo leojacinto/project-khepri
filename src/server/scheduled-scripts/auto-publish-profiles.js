@@ -1,7 +1,7 @@
 // @ts-nocheck
 (function() {
     var AUTO_PUBLISH_TAG = "[khepri-auto-publish]";
-    var KHEPRI_SCOPE_ID = "31ca590e2fdc8f18920fa33fafa4e3fd";
+    var KHEPRI_SCOPE_ID = "5097796e2f1883d880e0653bcfa4e35b";
 
     gs.info("[Khepri] Auto-publish scheduled job started — scanning for tagged profiles");
 
