@@ -453,6 +453,22 @@ The playbook contains:
 - **Constraints Reference** — every constraint discovered through failure
 - **Best Practices** — checklists, naming conventions, file organization
 
+### Using the Khepri Playbook from a fresh Build Agent conversation
+
+The playbook is deployed to the instance as a `sys_script_include` record (`KhepriAgentPlaybook`). This means any Build Agent conversation on the same instance can access it — you don't need to be inside the Khepri app.
+
+**Prompt template** (paste this as your first message in a new Build Agent conversation):
+
+> First, search the instance for "KhepriAgentPlaybook" using keyword_search with contentMode "full" and read the entire content. This is the Khepri field guide for building AI Agents. Then follow its Build Agent Procedure to build me a [describe your agent here].
+
+**Why this is needed:** The AI coding agent in a fresh conversation has no memory of previous sessions and doesn't proactively search the instance for guidance. The prompt above tells it to find and read the playbook before writing any code.
+
+**Architecture for new agents:**
+- Each new agent should be a **separate scoped app** (`create_new_servicenow_app`)
+- Use `AiAgent()` for the agent definition (one per scope)
+- Copy `AGENT_PLAYBOOK.md` into the new app's workspace for the full detailed reference
+- The instance-level `KhepriAgentPlaybook` ScriptInclude provides the condensed version accessible without copying files
+
 ---
 
 ## Operational Guardrails
