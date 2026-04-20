@@ -5,6 +5,10 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '0f1a5cb22fd40bd880e0653bcfa4e344': {
+                        table: 'ais_semantic_component_field'
+                        id: '0f1a5cb22fd40bd880e0653bcfa4e344'
+                    }
                     '16825cfa2f900bd880e0653bcfa4e3e4': {
                         table: 'ais_ai_agent_semantic_search_configuration_m2m'
                         id: '16825cfa2f900bd880e0653bcfa4e3e4'
@@ -12,6 +16,18 @@ declare global {
                     '78a731ae2f1883d880e0653bcfa4e349': {
                         table: 'sys_app_application'
                         id: '78a731ae2f1883d880e0653bcfa4e349'
+                    }
+                    '83f9dc722fd40bd880e0653bcfa4e39d': {
+                        table: 'ais_semantic_component_field'
+                        id: '83f9dc722fd40bd880e0653bcfa4e39d'
+                    }
+                    '9f0a5c722fd40bd880e0653bcfa4e3cb': {
+                        table: 'ais_semantic_component_field'
+                        id: '9f0a5c722fd40bd880e0653bcfa4e3cb'
+                    }
+                    b3d910722fd40bd880e0653bcfa4e3d1: {
+                        table: 'ais_semantic_component_field'
+                        id: 'b3d910722fd40bd880e0653bcfa4e3d1'
                     }
                     'bh-hr-Symbol(Now.UNRESOLVED)': {
                         table: 'x_snc_khepri_budget_history'
@@ -160,6 +176,14 @@ declare global {
                     'csp-finance-case-create': {
                         table: 'sys_scope_privilege'
                         id: '5f3f2b6a1a6042c18c1e6dda2dd4c7b6'
+                    }
+                    d3c918322fd40bd880e0653bcfa4e328: {
+                        table: 'ais_semantic_component_field'
+                        id: 'd3c918322fd40bd880e0653bcfa4e328'
+                    }
+                    e62a14f22fd40bd880e0653bcfa4e32a: {
+                        table: 'ais_semantic_component_field'
+                        id: 'e62a14f22fd40bd880e0653bcfa4e32a'
                     }
                     e677e97177c74c04aa3167dc99859a2f: {
                         table: 'ais_search_source'

@@ -6,8 +6,22 @@ Read this ENTIRE file before writing any code. Every rule exists because the age
 
 Khepri contains the building block objects for creating AI Agents in ServiceNow, assembled from real use cases. The number and variety of objects will increase as more use cases are built with it.
 
+---
+
+## PRE-FLIGHT CHECKLIST (read before every build/install)
+
+1. Every ScriptInclude class used by a tool needs a `ScriptInclude()` Fluent definition with `accessibleFrom: 'public'`
+2. Every manual step MUST include a direct instance link to the record
+3. Remove RAG/MCP tools from inline agent `tools[]` after every sync
+4. Never use `=` characters in `.now.ts` comment separators (sync corrupts them into merge conflict markers)
+5. RAG pipeline needs ALL of: datasource + search source + field attributes + semantic index config + snippet config + search app + profile + profile-source M2M + RAG tool + agent-tool M2M with full inputs
+6. Post-install for every agent: Define user access + Define data access + set proficiency + configure indexed source field selection in AI Search Admin Console + trigger reindex
+7. `.js` files in `src/server/` compile as `sys_module`, NOT `sys_script_include` -- the `ScriptInclude()` Fluent definition is what creates the `sys_script_include` record
+
+---
+
 > **Instance**: `<YOUR_INSTANCE>.service-now.com`
-> **Scope**: `x_snc_khepri` (`31ca590e2fdc8f18920fa33fafa4e3fd`)
+> **Scope**: `x_snc_khepri` (`5097796e2f1883d880e0653bcfa4e35b`)
 > **SDK**: Fluent 4.6.0
 
 ---
@@ -467,7 +481,7 @@ Check `inputs` field on each M2M. Empty `[]` for script tools = agent passes not
 
 ```
 Table: sys_script_include
-Query: name=<ClassName>^sys_scope=31ca590e2fdc8f18920fa33fafa4e3fd
+Query: name=<ClassName>^sys_scope=5097796e2f1883d880e0653bcfa4e35b
 ```
 
 Check for:
