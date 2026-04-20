@@ -1,12 +1,12 @@
 import '@servicenow/sdk/global'
 import { Record } from '@servicenow/sdk/core'
 
-// =====================================================
+// ---
 // KHEPRI SEARCH INDEX TEST
 // Full AIS pipeline: datasource -> search source ->
 // search profile -> profile-source M2M
 // Plus a Budget Search Agent wired to the RAG Retriever
-// =====================================================
+// ---
 export const khepriBudgetSearchProfile = Record({
     $id: Now.ID['khepri-budget-search-profile'],
     table: 'ais_search_profile',

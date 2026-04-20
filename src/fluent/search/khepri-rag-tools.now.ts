@@ -1,12 +1,10 @@
 import "@servicenow/sdk/global";
 import { Record } from "@servicenow/sdk/core";
 
-// =====================================================
 // KHEPRI RAG TOOLS
 // Two separate sn_aia_tool records (type: rag), one per
 // search pipeline. This avoids the Fluent build validator
 // uniqueness constraint on (agent, tool) in M2M records.
-// =====================================================
 
 // RAG tool for Cost Center Budget History
 export const khepriCcBudgetRagTool = Record({

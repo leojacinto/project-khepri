@@ -7,10 +7,10 @@ import {
   Record,
 } from "@servicenow/sdk/core";
 
-// =====================================================
+// ---
 // Expense Transactions (Khepri scope)
 // Equivalent of x_snc_forecast_v_0_expense_transactions
-// =====================================================
+// ---
 export const x_snc_khepri_expense_transactions = Table({
   name: "x_snc_khepri_expense_transactions",
   label: "Expense Transactions",

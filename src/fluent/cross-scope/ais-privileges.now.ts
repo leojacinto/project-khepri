@@ -1,11 +1,11 @@
 import "@servicenow/sdk/global";
 import { CrossScopePrivilege } from "@servicenow/sdk/core";
 
-// =====================================================
+// ---
 // Cross-scope privileges for AIS (AI Search) tables
 // These are global-scope tables but we declare access
 // explicitly for defense-in-depth.
-// =====================================================
+// ---
 
 // --- ais_datasource (AI Search Indexed Source) ---
 CrossScopePrivilege({

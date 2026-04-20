@@ -1,12 +1,12 @@
 import '@servicenow/sdk/global'
 import { CrossScopePrivilege } from '@servicenow/sdk/core'
 
-// =====================================================
+// ---
 // Cross-scope privilege for sn_spend_sdc_service_request
 // (Finance Case table — scope: sn_spend_sdc)
 // Required by KhepriBudgetVarianceAnalysis ScriptInclude
 // to create Finance Cases after variance analysis
-// =====================================================
+// ---
 CrossScopePrivilege({
     $id: Now.ID['csp-finance-case-create'],
     status: 'allowed',

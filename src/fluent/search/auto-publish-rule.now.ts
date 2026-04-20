@@ -2,13 +2,13 @@ import "@servicenow/sdk/global";
 import { BusinessRule } from "@servicenow/sdk/core";
 import { autoPublishSearchProfile } from "../../server/auto-publish-search-profile.js";
 
-// =====================================================
+// ---
 // AUTO-PUBLISH SEARCH PROFILES
 // Fires when a search source is linked to a search
 // profile via the M2M table. If the parent profile
 // belongs to the Khepri scope, auto-publish it using
 // the sn_ais.Synchronizer API.
-// =====================================================
+// ---
 BusinessRule({
   $id: Now.ID["br-auto-publish-search-profile"],
   name: "Khepri Auto-Publish Search Profile",

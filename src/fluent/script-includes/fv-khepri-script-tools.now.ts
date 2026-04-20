@@ -1,6 +1,18 @@
 import '@servicenow/sdk/global'
 import { ScriptInclude, Record } from '@servicenow/sdk/core'
 
+// --- ScriptInclude: KhepriAgentPlaybook ---
+// Field guide for building AI Agents, searchable from any conversation.
+// Search: keyword_search("Khepri Agent Playbook", contentMode: "full")
+export const KhepriAgentPlaybook = ScriptInclude({
+    $id: Now.ID['KhepriAgentPlaybook'],
+    name: 'KhepriAgentPlaybook',
+    script: Now.include('../../server/script-includes/khepri-agent-playbook.js'),
+    description: 'Khepri Agent Playbook - field guide for building AI Agents via Build Agent chat. Search for "Khepri Agent Playbook" from any conversation to read this. Contains pre-flight checklist, build agent procedure, tool type decision matrix, RAG pipeline checklist, MCP connection checklist, error analysis protocol, and constraints reference.',
+    accessibleFrom: 'public',
+    active: false,
+})
+
 // --- ScriptInclude: KhepriExtractCostCenter ---
 // Queries x_snc_khepri_expense_event for event data
 export const KhepriExtractCostCenter = ScriptInclude({

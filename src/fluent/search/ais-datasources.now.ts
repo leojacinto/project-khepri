@@ -1,12 +1,12 @@
 import '@servicenow/sdk/global'
 import { Record } from '@servicenow/sdk/core'
 
-// =====================================================
+// ---
 // AIS Datasources (Indexed Sources) and Search Sources
 // These must exist for the search pipelines to function.
 // After install, query for platform-assigned sys_ids
 // and update field attribute / M2M references.
-// =====================================================
+// ---
 
 // === CC Budget History ===
 export const ccBudgetDatasource = Record({

@@ -401,6 +401,10 @@ declare global {
                         table: 'api_key_credentials'
                         id: 'aeddb7abcecf49649fb412959ee044c1'
                     }
+                    KhepriAgentPlaybook: {
+                        table: 'sys_script_include'
+                        id: '1ea9602b33eb48ad9174d2771d3683be'
+                    }
                     KhepriBudgetVarianceAnalysis: {
                         table: 'sys_script_include'
                         id: 'e11775d15e08423ca4a515ab5f8b8649'
@@ -420,6 +424,10 @@ declare global {
                     'src_server_scheduled-scripts_auto-publish-profiles_js': {
                         table: 'sys_module'
                         id: '259c07baaa4840abb51ad2345e159ecf'
+                    }
+                    'src_server_script-includes_khepri-agent-playbook_js': {
+                        table: 'sys_module'
+                        id: '034d189f0c2142b9b001c68adf53a7d7'
                     }
                     'src_server_script-includes_khepri-budget-variance-analysis_js': {
                         table: 'sys_module'

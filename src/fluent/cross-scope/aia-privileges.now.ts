@@ -1,9 +1,9 @@
 import "@servicenow/sdk/global";
 import { CrossScopePrivilege } from "@servicenow/sdk/core";
 
-// =====================================================
+// ---
 // Cross-scope privileges for sn_aia_agent table
-// =====================================================
+// ---
 CrossScopePrivilege({
   $id: Now.ID["csp-aia-agent-create"],
   status: "allowed",
@@ -31,9 +31,9 @@ CrossScopePrivilege({
   targetType: "sys_db_object",
 });
 
-// =====================================================
+// ---
 // Cross-scope privileges for sn_aia_tool table
-// =====================================================
+// ---
 CrossScopePrivilege({
   $id: Now.ID["csp-aia-tool-create"],
   status: "allowed",
@@ -61,9 +61,9 @@ CrossScopePrivilege({
   targetType: "sys_db_object",
 });
 
-// =====================================================
+// ---
 // Cross-scope privileges for sn_aia_agent_tool_m2m table
-// =====================================================
+// ---
 CrossScopePrivilege({
   $id: Now.ID["csp-aia-agent-tool-m2m-create"],
   status: "allowed",
@@ -91,9 +91,9 @@ CrossScopePrivilege({
   targetType: "sys_db_object",
 });
 
-// =====================================================
+// ---
 // Cross-scope privileges for sn_aia_agent_config table
-// =====================================================
+// ---
 CrossScopePrivilege({
   $id: Now.ID["csp-aia-agent-config-create"],
   status: "allowed",
@@ -121,9 +121,9 @@ CrossScopePrivilege({
   targetType: "sys_db_object",
 });
 
-// =====================================================
+// ---
 // Cross-scope privileges for sn_aia_strategy table (read-only)
-// =====================================================
+// ---
 CrossScopePrivilege({
   $id: Now.ID["csp-aia-strategy-read"],
   status: "allowed",

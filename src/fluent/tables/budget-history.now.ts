@@ -8,11 +8,11 @@ import {
   Record,
 } from "@servicenow/sdk/core";
 
-// =====================================================
+// ---
 // Khepri Budget History Table
 // Mirror of x_snc_forecast_v_0_cost_center_budget_history
 // Used to test the full AIS search indexing pipeline
-// =====================================================
+// ---
 export const x_snc_khepri_budget_history = Table({
   name: "x_snc_khepri_budget_history",
   label: "Khepri Budget History",
@@ -63,10 +63,10 @@ export const x_snc_khepri_budget_history = Table({
   },
 });
 
-// =====================================================
+// ---
 // SAMPLE DATA — 3 cost centers, multiple months
 // Mimics realistic budget history patterns
-// =====================================================
+// ---
 
 // --- Cost Center: CC-IT-001 (IT Operations) ---
 const itOpsData = [

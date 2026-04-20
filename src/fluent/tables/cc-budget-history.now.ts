@@ -7,10 +7,10 @@ import {
   Record,
 } from "@servicenow/sdk/core";
 
-// =====================================================
+// ---
 // Cost Center Budget History (Khepri scope)
 // Equivalent of x_snc_forecast_v_0_cost_center_budget_history
-// =====================================================
+// ---
 export const x_snc_khepri_cc_budget_history = Table({
   name: "x_snc_khepri_cc_budget_history",
   label: "Cost Center Budget History",

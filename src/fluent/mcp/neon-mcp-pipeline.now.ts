@@ -1,7 +1,7 @@
 import '@servicenow/sdk/global'
 import { Record } from '@servicenow/sdk/core'
 
-// =====================================================
+// ---
 // KHEPRI MCP CONNECTION — NEON POSTGRES
 // Full MCP pipeline: credential → connection →
 // alias → MCP server → AIA tool → agent tool M2M
@@ -21,11 +21,11 @@ import { Record } from '@servicenow/sdk/core'
 //   sn_mcp_server:       547fe99656094b12b7b7d091b542802e
 //   sn_aia_tool:         f8fe5a193cea479fbd3017cab7f30214
 //   agent_tool_m2m:      8bcd2b763db64964a74e9e6d0104950c
-// =====================================================
+// ---
 
-// =====================================================
+// ---
 // 1. API KEY CREDENTIAL
-// =====================================================
+// ---
 export const khepriMcpCredential = Record({
     $id: Now.ID['khepri-mcp-credential'],
     table: 'api_key_credentials',
@@ -38,9 +38,9 @@ export const khepriMcpCredential = Record({
     },
 })
 
-// =====================================================
+// ---
 // 2. CONNECTION ALIAS (sys_alias)
-// =====================================================
+// ---
 export const khepriMcpAlias = Record({
     $id: Now.ID['khepri-mcp-alias'],
     table: 'sys_alias',
@@ -53,10 +53,10 @@ export const khepriMcpAlias = Record({
     },
 })
 
-// =====================================================
+// ---
 // 3. HTTP CONNECTION
 // Uses hardcoded sys_ids for reference fields
-// =====================================================
+// ---
 export const khepriMcpConnection = Record({
     $id: Now.ID['khepri-mcp-connection'],
     table: 'http_connection',
@@ -73,12 +73,12 @@ export const khepriMcpConnection = Record({
     },
 })
 
-// =====================================================
+// ---
 // 4. MCP SERVER
-// =====================================================
-// =====================================================
+// ---
+// ---
 // 5. AIA TOOL (MCP type)
-// =====================================================
+// ---
 export const khepriMcpTool = Record({
     $id: Now.ID['khepri-mcp-tool'],
     table: 'sn_aia_tool',

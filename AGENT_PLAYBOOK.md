@@ -17,6 +17,7 @@ Khepri contains the building block objects for creating AI Agents in ServiceNow,
 5. RAG pipeline needs ALL of: datasource + search source + field attributes + semantic index config + snippet config + search app + profile + profile-source M2M + RAG tool + agent-tool M2M with full inputs
 6. Post-install for every agent: Define user access + Define data access + set proficiency + configure indexed source field selection in AI Search Admin Console + trigger reindex
 7. `.js` files in `src/server/` compile as `sys_module`, NOT `sys_script_include` -- the `ScriptInclude()` Fluent definition is what creates the `sys_script_include` record
+8. For multiple agents in one scope (testing only): use `Record()` on `sn_aia_agent` instead of `AiAgent()`. For production agents: one agent per scoped app using `AiAgent()`
 
 ---
 
@@ -541,6 +542,7 @@ Every constraint below was discovered through failure. Do not rediscover them.
 | `instructions` not directly on AiAgent | Uses `versionDetails` | `versionDetails: [{ instructions: '...' }]` |
 | Static `Record()` calls only | `forEach` loops silently drop seed data | One exported Record() per row |
 | Sync overwrites agent files | Instance state pulled into .now.ts | Remove RAG/MCP tools from inline array after sync |
+| `AiAgent()` limited to one per scope | Fluent build validator rejects two `AiAgent()` definitions in the same scope. Inline tool names and `.js` script references conflict. | **Production pattern**: one agent per scoped app using `AiAgent()`. Each new agent gets a new scoped app (`create_new_servicenow_app`) with a copy of this playbook. Khepri stays as the reference implementation. **Testing pattern only**: use `Record()` on `sn_aia_agent` + `sn_aia_tool` + `sn_aia_agent_tool_m2m` to create additional agents in the same scope. This bypasses the Fluent build validator but requires two-pass sys_id wiring for everything. |
 
 ---
 
