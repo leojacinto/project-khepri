@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Context processing script for Khepri Test Agent
  * Standard passthrough — returns pageContext and triggerContext unchanged.

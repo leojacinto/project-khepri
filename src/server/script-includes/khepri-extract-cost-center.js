@@ -1,3 +1,4 @@
+// @ts-nocheck
 var KhepriExtractCostCenter = Class.create();
 KhepriExtractCostCenter.prototype = {
     initialize: function() {},

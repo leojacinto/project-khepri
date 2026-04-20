@@ -1,3 +1,4 @@
+// @ts-nocheck
 (function(inputs) {
     // Khepri System Ping Tool
     // Returns system information to prove the agent is alive

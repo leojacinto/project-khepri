@@ -5,671 +5,367 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
-                    '047a29b179504979b53dcd3e36e11806': {
-                        table: 'ais_search_profile_ais_search_source_m2m'
-                        id: '047a29b179504979b53dcd3e36e11806'
-                        deleted: true
-                    }
-                    '0678d9b4db2e4fc3880168f5ea86db6d': {
-                        table: 'ais_datasource'
-                        id: '0678d9b4db2e4fc3880168f5ea86db6d'
-                        deleted: true
-                    }
-                    '0b5e281623ab4d788cf745c35cb29d41': {
-                        table: 'ais_search_source'
-                        id: '0b5e281623ab4d788cf745c35cb29d41'
-                        deleted: true
-                    }
-                    '1259604df33a413888855d9c9577b11a': {
-                        table: 'ais_datasource'
-                        id: '1259604df33a413888855d9c9577b11a'
-                        deleted: true
-                    }
-                    '148dd2522f588b9880e0653bcfa4e3d4': {
-                        table: 'sys_alias'
-                        id: '148dd2522f588b9880e0653bcfa4e3d4'
-                    }
-                    '2ebcce962f180b58920fa33fafa4e34e': {
-                        table: 'ais_search_profile_ais_dictionary_m2m'
-                        id: '2ebcce962f180b58920fa33fafa4e34e'
-                    }
-                    '2ec0601a2f1c0758920fa33fafa4e36a': {
-                        table: 'ais_ai_agent_semantic_search_configuration_m2m'
-                        id: '2ec0601a2f1c0758920fa33fafa4e36a'
-                    }
-                    '314c55721f9741d2bf0c5ca16e134110': {
-                        table: 'ais_search_source'
-                        id: '314c55721f9741d2bf0c5ca16e134110'
-                        deleted: true
-                    }
-                    '31f1f7e70caa416a92b22ee2218514e2': {
-                        table: 'ais_search_profile'
-                        id: '31f1f7e70caa416a92b22ee2218514e2'
-                    }
-                    '32d8574894f54caea60f4ea408cb503e': {
-                        table: 'ais_search_profile_ais_search_source_m2m'
-                        id: '32d8574894f54caea60f4ea408cb503e'
-                        deleted: true
-                    }
-                    '33e6cf5e2fd48b58920fa33fafa4e397': {
-                        table: 'ais_semantic_snippetization_configuration'
-                        id: '33e6cf5e2fd48b58920fa33fafa4e397'
-                    }
-                    '37bd4a522f580b58920fa33fafa4e313': {
-                        table: 'ais_dictionary'
-                        id: '37bd4a522f580b58920fa33fafa4e313'
-                    }
-                    '4df5154e53484624833da8b7daa51d52': {
-                        table: 'sn_mcp_server'
-                        id: '4df5154e53484624833da8b7daa51d52'
-                        deleted: true
-                    }
-                    '53e8cd29e882462880f8f9f8dc9a509d': {
-                        table: 'ais_datasource'
-                        id: '53e8cd29e882462880f8f9f8dc9a509d'
-                    }
-                    '5bdc821a2f180b58920fa33fafa4e31c': {
-                        table: 'ais_dictionary'
-                        id: '5bdc821a2f180b58920fa33fafa4e31c'
-                    }
-                    '63e89a0a2f104358920fa33fafa4e337': {
-                        table: 'ais_ai_agent_semantic_search_configuration_m2m'
-                        id: '63e89a0a2f104358920fa33fafa4e337'
-                    }
-                    '6a064f962fd48b58920fa33fafa4e3e4': {
-                        table: 'ais_semantic_component_field'
-                        id: '6a064f962fd48b58920fa33fafa4e3e4'
-                    }
-                    '6ec0601a2f1c0758920fa33fafa4e363': {
-                        table: 'ais_ai_agent_semantic_search_configuration_m2m'
-                        id: '6ec0601a2f1c0758920fa33fafa4e363'
-                    }
-                    '83195ee15ef248fda68c14c4265de528': {
-                        table: 'ais_datasource'
-                        id: '83195ee15ef248fda68c14c4265de528'
-                    }
-                    '8d3c1e8838cc4ee28b415ce05274e0ff': {
-                        table: 'ais_search_profile'
-                        id: '8d3c1e8838cc4ee28b415ce05274e0ff'
-                    }
-                    '8fe647da2fd48b58920fa33fafa4e3db': {
-                        table: 'ais_semantic_snippetization_configuration'
-                        id: '8fe647da2fd48b58920fa33fafa4e3db'
-                    }
-                    '94d6835e2fd48b58920fa33fafa4e35e': {
-                        table: 'ais_semantic_component_field'
-                        id: '94d6835e2fd48b58920fa33fafa4e35e'
-                    }
-                    '988dd2522f588b9880e0653bcfa4e3d8': {
-                        table: 'sys_wdf_external_connection_mapping'
-                        id: '988dd2522f588b9880e0653bcfa4e3d8'
-                    }
-                    '9a96c3da2fd48b58920fa33fafa4e3c2': {
-                        table: 'ais_semantic_component_field'
-                        id: '9a96c3da2fd48b58920fa33fafa4e3c2'
-                    }
-                    '9bdc821a2f180b58920fa33fafa4e320': {
-                        table: 'ais_search_profile_ais_dictionary_m2m'
-                        id: '9bdc821a2f180b58920fa33fafa4e320'
-                    }
-                    a4489a241b0c4b44bd40086b702adde6: {
-                        table: 'ais_search_profile'
-                        id: 'a4489a241b0c4b44bd40086b702adde6'
-                    }
-                    a6bcce962f180b58920fa33fafa4e347: {
-                        table: 'ais_dictionary'
-                        id: 'a6bcce962f180b58920fa33fafa4e347'
-                    }
-                    aee721e3a3084ab0ad00370b18c28322: {
-                        table: 'ais_search_profile_ais_search_source_m2m'
-                        id: 'aee721e3a3084ab0ad00370b18c28322'
-                        deleted: true
-                    }
-                    b3d50f562fd48b58920fa33fafa4e35d: {
-                        table: 'ais_semantic_component_field'
-                        id: 'b3d50f562fd48b58920fa33fafa4e35d'
-                    }
-                    bbbd4a522f580b58920fa33fafa4e318: {
-                        table: 'ais_search_profile_ais_dictionary_m2m'
-                        id: 'bbbd4a522f580b58920fa33fafa4e318'
-                    }
                     'bh-hr-Symbol(Now.UNRESOLVED)': {
                         table: 'x_snc_khepri_budget_history'
-                        id: '5b95c9bd310a4c29a7c1e34fd1e42bde'
+                        id: '2c328959f7aa421e95c66b096ec9920e'
                     }
                     'bh-it-ops-Symbol(Now.UNRESOLVED)': {
                         table: 'x_snc_khepri_budget_history'
-                        id: 'e42d0b2641f9408b81e8b7ef7100d2e0'
+                        id: '8ff54337838a42479b9a8d39c11597a8'
                     }
                     'bh-mkt-Symbol(Now.UNRESOLVED)': {
                         table: 'x_snc_khepri_budget_history'
-                        id: '6e3b9f83f4f94207952e6eb9cd9638e8'
+                        id: 'a9b0cd2fd6df42feaa8bbe8b72047dea'
                     }
                     bom_json: {
                         table: 'sys_module'
-                        id: '80a844533fc24451aecd59e22b89f6c7'
+                        id: '3c7d0627afd74123a89655bba079901e'
                     }
                     'br-auto-publish-search-profile': {
                         table: 'sys_script'
-                        id: '03a18a486d744becab53ec8ddac276dd'
-                    }
-                    'bva-check-budget': {
-                        table: 'sys_hub_flow_logic_instance_v2'
-                        id: '56be5e32c13e41db95505a6e2d283802'
-                    }
-                    'bva-create-case': {
-                        table: 'sys_hub_action_instance_v2'
-                        id: '38977047ca8b4a009c8355960b7162e0'
-                    }
-                    'bva-log-not-found': {
-                        table: 'sys_hub_action_instance_v2'
-                        id: 'b0240e0618b642c09c54430d76e59d6f'
-                    }
-                    'bva-log-success': {
-                        table: 'sys_hub_action_instance_v2'
-                        id: '47476d468f9648c887cc2dd9757022f9'
-                    }
-                    'bva-lookup-budget': {
-                        table: 'sys_hub_action_instance_v2'
-                        id: 'b8a618263d2040c6a3db6dd36390d833'
-                    }
-                    'bva-no-budget': {
-                        table: 'sys_hub_flow_logic_instance_v2'
-                        id: '9971ef8af0844204b001cdf79ecb75f2'
-                    }
-                    'bva-trigger': {
-                        table: 'sys_hub_trigger_instance_v2'
-                        id: 'a3398ebccc6346ffb0f7a82bbdb6dec2'
-                    }
-                    c041610039f5414f89c72ff1cb26f6f6: {
-                        table: 'ais_search_source'
-                        id: 'c041610039f5414f89c72ff1cb26f6f6'
-                        deleted: true
-                    }
-                    cdc92b099e154d3f82c2d945cd483862: {
-                        table: 'sys_script_include'
-                        id: 'cdc92b099e154d3f82c2d945cd483862'
-                        deleted: true
+                        id: '0ddd7d09c28b4cf68f72ea051c126683'
                     }
                     'csp-aia-agent-config-create': {
                         table: 'sys_scope_privilege'
-                        id: 'e676b146ce32412b8c9337dfa7eebd82'
+                        id: 'ad38887b5bcc4597b7d6e09d2691c94b'
                     }
                     'csp-aia-agent-config-read': {
                         table: 'sys_scope_privilege'
-                        id: 'a19d91931d6a433e9c43a5724fa51903'
+                        id: '51b66fead7724b4caccb1486d7205515'
                     }
                     'csp-aia-agent-config-write': {
                         table: 'sys_scope_privilege'
-                        id: 'a4d460ddbc454de7a3e7071e1b4af2a3'
+                        id: 'df61c99252c940e094ffee0afe0d87dd'
                     }
                     'csp-aia-agent-create': {
                         table: 'sys_scope_privilege'
-                        id: 'fb4b643b7d684ec38b117cf2c045837e'
+                        id: '7748c1abbcd84e408cbfe7a1d5694aa0'
                     }
                     'csp-aia-agent-read': {
                         table: 'sys_scope_privilege'
-                        id: '8c3349a198fa48b5a0b50c2271776756'
+                        id: '095c487648124c0b943124bcc61abc9f'
                     }
                     'csp-aia-agent-tool-m2m-create': {
                         table: 'sys_scope_privilege'
-                        id: 'aa5e691c41e94dbc81fcd38c1bd516a8'
+                        id: 'fb8abe643a3643eeb30b33cbde2b3222'
                     }
                     'csp-aia-agent-tool-m2m-read': {
                         table: 'sys_scope_privilege'
-                        id: '32c3773f04c84c93a7c3d9ee4ad84fa4'
+                        id: 'c89e478f08bd43d79610b77d98214131'
                     }
                     'csp-aia-agent-tool-m2m-write': {
                         table: 'sys_scope_privilege'
-                        id: 'e8bdbe6823824f32911d934a64c76bd2'
+                        id: '9070976681ba456f8a1c5e2b243aa958'
                     }
                     'csp-aia-agent-write': {
                         table: 'sys_scope_privilege'
-                        id: '8f337e85c2c447c2a28aef001fed0dd6'
+                        id: '3607980bdc9a4ab1b44dd838e96c5c00'
                     }
                     'csp-aia-strategy-read': {
                         table: 'sys_scope_privilege'
-                        id: '35dc7b755a884563afbcfda7bbd6d941'
+                        id: 'a6bcaa630a0a4e38bb46eaa471df2db9'
                     }
                     'csp-aia-tool-create': {
                         table: 'sys_scope_privilege'
-                        id: '722471bc912449afa2acba0da4e2608b'
+                        id: '44683f8297894178977e6a396ff9fe37'
                     }
                     'csp-aia-tool-read': {
                         table: 'sys_scope_privilege'
-                        id: '88e940cab60f4f04913dfcafbff473b2'
+                        id: '321d2ca16e074419993fa5d0a2c15493'
                     }
                     'csp-aia-tool-write': {
                         table: 'sys_scope_privilege'
-                        id: 'c0cfec8071c94153b4cacf9ddd6c900d'
+                        id: 'c8db286a70034b3ba4bdbd0f2e68fe7a'
                     }
                     'csp-ais-datasource-create': {
                         table: 'sys_scope_privilege'
-                        id: 'd96ac9cd64a2415c94352798a6873bd0'
+                        id: '1f4179d1391b42f1b1e6b117ac558bc4'
                     }
                     'csp-ais-datasource-read': {
                         table: 'sys_scope_privilege'
-                        id: '0cedaf80e6094c84bf46a8d371311357'
+                        id: '194f7db74620485a8526b6256ae8e555'
                     }
                     'csp-ais-datasource-write': {
                         table: 'sys_scope_privilege'
-                        id: '1d6cb4021f0e42fb9092ec86ec43ce8e'
+                        id: 'ace69ac6a0154ce984f5e7983d1ae8b5'
                     }
                     'csp-ais-ds-attr-create': {
                         table: 'sys_scope_privilege'
-                        id: 'c2c690251d83481c9d797fa4c104dee1'
+                        id: 'd0dff6020e2142db8914721576fc065b'
                     }
                     'csp-ais-ds-attr-read': {
                         table: 'sys_scope_privilege'
-                        id: '8b988627fab0491a8c6dd40465009154'
+                        id: '37a0259bb03d4ad78eaf3d6de78b4c77'
                     }
                     'csp-ais-profile-source-m2m-create': {
                         table: 'sys_scope_privilege'
-                        id: '0f1a1e24746c45f185bc2bc54ec82d49'
+                        id: '77cd70424b61431187d40e7692cf1f12'
                     }
                     'csp-ais-profile-source-m2m-read': {
                         table: 'sys_scope_privilege'
-                        id: '7e0be4966b744c7e85c92c3e2f7926ae'
+                        id: '450721c92059431c90a9d3f151020263'
                     }
                     'csp-ais-search-profile-create': {
                         table: 'sys_scope_privilege'
-                        id: '836869164b3a4644a7114d7a56b3153c'
+                        id: '819bc92229574664aeeb0fedab3a0f72'
                     }
                     'csp-ais-search-profile-read': {
                         table: 'sys_scope_privilege'
-                        id: 'c0e5b4359b7a46f083809d8ef5c64154'
+                        id: '6d8caf6cabac4671b6a6594a0c18093b'
                     }
                     'csp-ais-search-profile-write': {
                         table: 'sys_scope_privilege'
-                        id: '44e1f771145a4828b05413f0dc9b8f00'
+                        id: '4685d81be52844268774e27cd34a98d2'
                     }
                     'csp-ais-search-source-create': {
                         table: 'sys_scope_privilege'
-                        id: '94e9ebd79df44df6848b781966d2cce6'
+                        id: '547ac2b348f744d2929d11dc489197f7'
                     }
                     'csp-ais-search-source-read': {
                         table: 'sys_scope_privilege'
-                        id: 'fbcf24ff17ca4980af4c6c08f79fe9d9'
+                        id: '31fd691382c4422cbf1f983b4df0f201'
                     }
                     'csp-ais-search-source-write': {
                         table: 'sys_scope_privilege'
-                        id: '48cf60d0410b4d4f872fdae5c000054c'
+                        id: 'cff105e1973c42e499a37dd234e065da'
                     }
                     'csp-ais-semantic-m2m-create': {
                         table: 'sys_scope_privilege'
-                        id: '1bfc42f144e34a4da1378e8ad3850953'
+                        id: 'bdd76a9c7eff46a7b0b49c136beb7c22'
                     }
                     'csp-ais-semantic-m2m-read': {
                         table: 'sys_scope_privilege'
-                        id: '93f003cae4be47b79150c90d9bbf8c22'
+                        id: '01b5f7937ac645daa9ac7c5577092a33'
                     }
                     'csp-ais-semantic-m2m-write': {
                         table: 'sys_scope_privilege'
-                        id: '7455cbf88a844775904f923537f3dda9'
+                        id: '4aded359bbaf44eea77274c2c6cf46b3'
                     }
                     'csp-ais-synchronizer-execute': {
                         table: 'sys_scope_privilege'
-                        id: 'c93d2aee3b724a80ab11be8ff8318d0c'
+                        id: '8279da0745fb466d8794a5242baa2b18'
                     }
                     'csp-finance-case-create': {
                         table: 'sys_scope_privilege'
-                        id: '517337c573a2443a8ca8678ac4259382'
-                    }
-                    d354c5c049f74fc2a2c3d72098778299: {
-                        table: 'sys_script_include'
-                        id: 'd354c5c049f74fc2a2c3d72098778299'
-                        deleted: true
-                    }
-                    d9c68f1e2fd48b58920fa33fafa4e37e: {
-                        table: 'ais_semantic_component_field'
-                        id: 'd9c68f1e2fd48b58920fa33fafa4e37e'
-                    }
-                    d9fd8a08d391464b95d91739b3d9ff83: {
-                        table: 'ais_datasource'
-                        id: 'd9fd8a08d391464b95d91739b3d9ff83'
-                        deleted: true
-                    }
-                    deb64b1e2fd48b58920fa33fafa4e311: {
-                        table: 'ais_semantic_component_field'
-                        id: 'deb64b1e2fd48b58920fa33fafa4e311'
-                    }
-                    e7e8dec22f104358920fa33fafa4e339: {
-                        table: 'ais_ai_agent_semantic_search_configuration_m2m'
-                        id: 'e7e8dec22f104358920fa33fafa4e339'
-                    }
-                    'extract-cc-log': {
-                        table: 'sys_hub_action_instance_v2'
-                        id: '0257974e034f42cbb3d41dba77edcf0e'
-                    }
-                    'extract-cc-trigger': {
-                        table: 'sys_hub_trigger_instance_v2'
-                        id: '9363d62b6c714f3fbb97b23434afc540'
+                        id: '5f3f2b6a1a6042c18c1e6dda2dd4c7b6'
                     }
                     'fv-cc-budget-0': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: 'f844eb49f823456b98e377abad12398b'
+                        id: 'e20d38c506cb4d169f12061d07803fa8'
                     }
                     'fv-cc-budget-1': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: 'e5bd3968c9cd40788eef922910eb4237'
+                        id: '3d8e971be0a74e4d9bdb2874f102401d'
                     }
                     'fv-cc-budget-10': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: 'f67396b1ccc64300a2980be0f8a5d5f5'
+                        id: 'bd655431fd4440c9a14e07a7cf5c0197'
                     }
                     'fv-cc-budget-2': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: 'f4e7544e9e294b82aae534d85b91bd59'
+                        id: '7f90f7b270a64502941beb9514597949'
                     }
                     'fv-cc-budget-3': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: '82c2c2cb10e542c9b754e604120b3673'
+                        id: '7a76afd8a854491d8268477f0690a4fa'
                     }
                     'fv-cc-budget-4': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: 'c9f83a14c7524ce6a57a146dbb6c76e3'
+                        id: '16cb500b4ca44c38b538a5a9b41becce'
                     }
                     'fv-cc-budget-5': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: '02da878422d642cdaf2a58c4c49028bc'
+                        id: 'ffa8de59a2ee43599437c81212873a5f'
                     }
                     'fv-cc-budget-6': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: 'd9206a3dec664c068d1ececabfd4ba2f'
+                        id: '8005a0f3e37c4600a7d179ea4593404f'
                     }
                     'fv-cc-budget-7': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: '0b34050818ec428dade3d9629b4bdc8b'
+                        id: 'fb1649727c264069b6dbdb4940ada763'
                     }
                     'fv-cc-budget-8': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: '548c393aa3904e5b81fee9f8920d3dd8'
+                        id: '580e2c9c74af40e9a5506b6c4e879b91'
                     }
                     'fv-cc-budget-9': {
                         table: 'x_snc_khepri_cc_budget_history'
-                        id: '9a5dc5f165974e13a55e5be46a974b28'
-                    }
-                    'fv-cc-budget-datasource': {
-                        table: 'ais_datasource'
-                        id: '1259604df33a413888855d9c9577b11a'
-                        deleted: true
+                        id: '1d2aec8f7e384355ab501c5f4b7cedf9'
                     }
                     'fv-cc-budget-ds-attr': {
                         table: 'ais_datasource_attribute'
-                        id: '2207cfb8a96a4312906575eac8cf196a'
+                        id: 'c64cfe18fe3d4a829fe706cf2cfe44c8'
                     }
                     'fv-cc-budget-fa-cost-center': {
                         table: 'ais_datasource_field_attribute'
-                        id: '2cf6f12d9739488782dd26ea46233133'
+                        id: 'fa0b3f42bce14f41a2f225c2ffcbebdc'
                     }
                     'fv-cc-budget-fa-description': {
                         table: 'ais_datasource_field_attribute'
-                        id: '2f0d3ddc7feb4076aeada630bd418588'
+                        id: '527a901eb2b3405ba685f0136ad2186e'
                     }
                     'fv-cc-budget-profile-source-m2m': {
                         table: 'ais_search_profile_ais_search_source_m2m'
-                        id: 'aee721e3a3084ab0ad00370b18c28322'
-                        deleted: false
+                        id: '7954720dd00946e6adfba4dd4f520e80'
                     }
                     'fv-cc-budget-search-app': {
                         table: 'sys_search_context_config'
-                        id: '31f8f143f74c4b2ca86205198c36f856'
+                        id: 'c40f62a8f5fa4ccba8d22082dbe41c75'
                     }
                     'fv-cc-budget-search-profile': {
                         table: 'ais_search_profile'
-                        id: 'b685c490a44f427492b688dd64e88da4'
-                    }
-                    'fv-cc-budget-search-source': {
-                        table: 'ais_search_source'
-                        id: '314c55721f9741d2bf0c5ca16e134110'
-                        deleted: true
-                    }
-                    'fv-cc-budget-sem-field-1': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: '9b5210f57ee140eb83f8bad298fc2280'
-                        deleted: true
-                    }
-                    'fv-cc-budget-sem-field-2': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: 'f08635a7b07e4927baa5487620edb000'
-                        deleted: true
-                    }
-                    'fv-cc-budget-sem-field-3': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: '402f98edb47f47a68c1270a5063277fa'
-                        deleted: true
-                    }
-                    'fv-cc-budget-sem-field-4': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: 'ef33c6d7794c491db0c4805fc9c51fa6'
-                        deleted: true
+                        id: '3e160b91e88f48cebdd3fdacb4dd7e98'
                     }
                     'fv-cc-budget-semantic-index': {
                         table: 'ais_semantic_index_configuration'
-                        id: '09d03a6357d24d8e874ba27bdd7ef97b'
+                        id: '253f7a50156942a5add9bf9c2b110106'
                     }
                     'fv-cc-budget-snippet-config': {
                         table: 'ais_semantic_snippetization_configuration'
-                        id: '1a21a17286ce461caeca8a87a2bcf6e3'
+                        id: '26b368bc56ff4993b165bacd26af7be1'
                     }
                     'fv-event-0': {
                         table: 'x_snc_khepri_expense_event'
-                        id: '2f58536d7bc44d83a5f3c0307f70df3b'
+                        id: '42c7d9595929454394195dde01c7e709'
                     }
                     'fv-event-1': {
                         table: 'x_snc_khepri_expense_event'
-                        id: '4ebee3d661134b81ab0c4c777be9b5f2'
+                        id: '6e1c5fb965a14ce99744feec3bd6a8ad'
                     }
                     'fv-event-2': {
                         table: 'x_snc_khepri_expense_event'
-                        id: '2884500e5767444e9e5e97e5f0b1fb7e'
+                        id: '45be447d886c4e128be2debbe52a821a'
                     }
                     'fv-expense-0': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: '26a000a135644fad8f3c0f6f25134f72'
+                        id: '3db442e3fcfd4c0eafc3feae003e14a9'
                     }
                     'fv-expense-1': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: 'a368c2b2edb94c12b5713efba6f1cc87'
+                        id: '2e2a20353c3645b79a159fc49238dff0'
                     }
                     'fv-expense-2': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: '94580df396d4460e9550620dd172fd7f'
+                        id: '031c358db6ef46a2b65215b4bc3aaf8a'
                     }
                     'fv-expense-3': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: '03e1b660971e4b0c963dda1759634393'
+                        id: '10d5cf1ebf694d6b951828dbcfc57b00'
                     }
                     'fv-expense-4': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: '31acad3a3e00446d89b73bb6bce02ec0'
+                        id: '4a2f37ffec3c45389064c532eaf7a0c3'
                     }
                     'fv-expense-5': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: '51b4b0e80cea4582a6fe2b4262f24ea7'
+                        id: '6534c4fa82e248b889fe7d486408445f'
                     }
                     'fv-expense-6': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: '07942d9b162f4267b6846bf2cafd97ce'
+                        id: 'd17bfca3928145afa3515c8b5859cebf'
                     }
                     'fv-expense-7': {
                         table: 'x_snc_khepri_expense_transactions'
-                        id: 'e4f1e93b18cd470a977846f5d0bf2462'
-                    }
-                    'fv-expense-datasource': {
-                        table: 'ais_datasource'
-                        id: 'd9fd8a08d391464b95d91739b3d9ff83'
-                        deleted: true
+                        id: '38848f09e16f418f95d14bee375a7aa1'
                     }
                     'fv-expense-ds-attr': {
                         table: 'ais_datasource_attribute'
-                        id: '78434f7b6d2b43bcb96eadbecac5d544'
+                        id: '1c5846f10450406391e3885c8e032f47'
                     }
                     'fv-expense-fa-description': {
                         table: 'ais_datasource_field_attribute'
-                        id: 'a5d503e631cc43a6a202e46c6bfa134e'
+                        id: '088c02f50c6b45cb9e195a5814bd3602'
                     }
                     'fv-expense-fa-vendor': {
                         table: 'ais_datasource_field_attribute'
-                        id: '9d5ddec5ff6e4ecdb97046c4d1dc8bfb'
+                        id: 'd6ebf4fe1fe444b891d17964a72522c9'
                     }
                     'fv-expense-profile-source-m2m': {
                         table: 'ais_search_profile_ais_search_source_m2m'
-                        id: '047a29b179504979b53dcd3e36e11806'
-                        deleted: false
+                        id: '58c82253745b4e3c9f8078424f24807d'
                     }
                     'fv-expense-search-app': {
                         table: 'sys_search_context_config'
-                        id: '2ff9deec10c1453aaa9012b486b0f952'
+                        id: '12766f6f24584fa48740b93e343d2a6f'
                     }
                     'fv-expense-search-profile': {
                         table: 'ais_search_profile'
-                        id: '08c2c62508044565993dc137d70d2b24'
-                    }
-                    'fv-expense-search-source': {
-                        table: 'ais_search_source'
-                        id: 'c041610039f5414f89c72ff1cb26f6f6'
-                        deleted: true
-                    }
-                    'fv-expense-sem-field-1': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: '3161dd69d6b147dab8c1163c30911a17'
-                        deleted: true
-                    }
-                    'fv-expense-sem-field-2': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: '6642e4a923de421c9726c7e2297edeea'
-                        deleted: true
-                    }
-                    'fv-expense-sem-field-3': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: '5db22bf6147e46c0a3e9a50f34ba1214'
-                        deleted: true
-                    }
-                    'fv-expense-sem-field-4': {
-                        table: 'ais_datasource_semantic_field_m2m'
-                        id: 'c7a8d5f30d22402ab1be8479b84ef666'
-                        deleted: true
+                        id: '8fc43a23c6c64cc0b2c138b78140149a'
                     }
                     'fv-expense-semantic-index': {
                         table: 'ais_semantic_index_configuration'
-                        id: '273f23fc08d9437694926582ebcabeac'
+                        id: '4f34c9a8d24c454289fa63ca210f09ec'
                     }
                     'fv-expense-snippet-config': {
                         table: 'ais_semantic_snippetization_configuration'
-                        id: '6511e74fbba44933b90c42f94f4f6bed'
+                        id: '9a8546121c5243958fb3eddb79b636a6'
                     }
                     'fv-khepri-agent': {
                         table: 'sn_aia_agent'
-                        id: '53e05c74f31d4534afddc3aff5609449'
-                    }
-                    'fv-khepri-agent-acl': {
-                        table: 'sys_security_acl'
-                        id: '0e05698e47064e4ebf4dfc68613ea4fb'
+                        id: '1134f66ab132451b923710e6b1cb8786'
                     }
                     'khepri-auto-publish-job': {
                         table: 'sysauto_script'
-                        id: '2b3ef62d511d4d21959d9842a326bb52'
-                    }
-                    'khepri-budget-agent': {
-                        table: 'sn_aia_agent'
-                        id: '187ad954a1b645bb857ed9c0bd09bd03'
-                        deleted: true
-                    }
-                    'khepri-budget-agent-acl': {
-                        table: 'sys_security_acl'
-                        id: 'a369a44d4bf149ca90562ec3876a6804'
-                        deleted: true
-                    }
-                    'khepri-budget-datasource': {
-                        table: 'ais_datasource'
-                        id: '0678d9b4db2e4fc3880168f5ea86db6d'
-                        deleted: true
-                    }
-                    'khepri-budget-profile-source-m2m': {
-                        table: 'ais_search_profile_ais_search_source_m2m'
-                        id: '32d8574894f54caea60f4ea408cb503e'
-                        deleted: true
+                        id: 'd3c1ff4cc8b14f24b6bc1cf1194b793c'
                     }
                     'khepri-budget-search-profile': {
                         table: 'ais_search_profile'
-                        id: 'e5b5117da9474d919a567e9c0fd9b4dc'
-                    }
-                    'khepri-budget-search-source': {
-                        table: 'ais_search_source'
-                        id: '0b5e281623ab4d788cf745c35cb29d41'
-                        deleted: true
-                    }
-                    'khepri-budget-variance-flow': {
-                        table: 'sys_hub_flow'
-                        id: 'f3c84e4553e04e2fbde6db3d595acd97'
-                    }
-                    'khepri-extract-cc-flow': {
-                        table: 'sys_hub_flow'
-                        id: '87026c07a52f47c1b7cf4afa304a80f8'
+                        id: 'fd5a54ef37584f488eb379dea710b369'
                     }
                     'khepri-mcp-alias': {
                         table: 'sys_alias'
-                        id: '9c4eb8e9faf64c15a45d8ac7996b4e2c'
+                        id: '5e06b519cc9c4d95bcca6fd305936211'
                     }
                     'khepri-mcp-connection': {
                         table: 'http_connection'
-                        id: 'b550efdae9e84682a00867e5aebd3b1b'
+                        id: 'c3990c696eb54d23a348ca3f810bbcb4'
                     }
                     'khepri-mcp-credential': {
                         table: 'api_key_credentials'
-                        id: '40c36e5561774f89852bc90b2fa134ee'
-                    }
-                    'khepri-mcp-server': {
-                        table: 'sn_mcp_server'
-                        id: '4df5154e53484624833da8b7daa51d52'
-                        deleted: true
-                    }
-                    'khepri-test-agent': {
-                        table: 'sn_aia_agent'
-                        id: '3c89edbc8c0b4e2cb74e6c78923ba83d'
-                        deleted: true
-                    }
-                    'khepri-test-agent-acl': {
-                        table: 'sys_security_acl'
-                        id: '301e4b46c070481688c6c53d97bf638c'
-                        deleted: true
-                    }
-                    KhepriBudgetVarianceAnalysis: {
-                        table: 'sys_script_include'
-                        id: 'd354c5c049f74fc2a2c3d72098778299'
-                        deleted: true
-                    }
-                    KhepriExtractCostCenter: {
-                        table: 'sys_script_include'
-                        id: 'cdc92b099e154d3f82c2d945cd483862'
-                        deleted: true
+                        id: 'aeddb7abcecf49649fb412959ee044c1'
                     }
                     package_json: {
                         table: 'sys_module'
-                        id: '7ea9d4c8d3f64b278f2756a5d1edc1cc'
+                        id: 'c1396abd79ff48ff85b4ce661afdb361'
                     }
                     'src_server_auto-publish-search-profile_js': {
                         table: 'sys_module'
-                        id: '2e2eac218ad0405eb56e8929df3ab025'
+                        id: 'fb3dba3f79ec4da68d637e1cc2bd5ddb'
                     }
                     'src_server_scheduled-scripts_auto-publish-profiles_js': {
                         table: 'sys_module'
-                        id: '4a65b211af7d4233ae04bfdb951e8505'
+                        id: '259c07baaa4840abb51ad2345e159ecf'
                     }
                     'src_server_script-includes_khepri-budget-variance-analysis_js': {
                         table: 'sys_module'
-                        id: '7bb0478bd30849e8b26d1a64162896d3'
+                        id: '72103d44a5c34c429fa0da9452c7a2e2'
                     }
                     'src_server_script-includes_khepri-extract-cost-center_js': {
                         table: 'sys_module'
-                        id: '30706ae1a0c0492a979e105a25772ca9'
+                        id: '90453b03ec8a49c28ed18d8820d2e087'
                     }
                 }
                 composite: [
                     {
+                        table: 'sys_dictionary'
+                        id: '041a19a9ba634768b269f37d9574eb73'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'variance'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '05ad38ffb58f4a9993aade0d366aeb47'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'fiscal_year'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
-                        id: '01344303fac34c79b571b597feabe6ce'
+                        id: '0602404c41d044388703e2500388c823'
                         key: {
                             name: 'x_snc_khepri_cc_budget_history'
                             element: 'variance_pct'
@@ -678,272 +374,16 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
-                        id: '045c8c855f5640458a5dce80ebc6acc6'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'variance_pct'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '05aff0d0f9ed4b0487143cdc31b426ba'
+                        id: '09cddf66ce0642a79b07d9ec322f162d'
                         key: {
                             name: 'x_snc_khepri_expense_event'
-                            element: 'source_system'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '05e63e99264d4d2eb18ac33f1996d6cb'
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: '85a2c8a3476447aea4eeb71e521962e6'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: '0768f1dffbd246a0b1e59e5dd0b64962'
-                        key: {
-                            name: 'Khepri CC Budget History RAG'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '095c5349afa14a95a8118e672c3f6a27'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'actual_spend'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '0b942f494c234caa951f51d9bcc3398a'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'timestamp'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '0dfe5a4e2fd04358920fa33fafa4e390'
-                        deleted: false
-                        key: {
-                            name: 'var__m_sys_hub_flow_input_f3c84e4553e04e2fbde6db3d595acd97'
-                            element: 'current'
+                            element: 'region'
                             language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: '0eb806c048114bb3af30090e28e80135'
-                        deleted: true
-                        key: {
-                            name: 'Search for Cost Center History'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '0ef32bfbfa6f4bdaae87b42b2968a088'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'gl_account'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '0ffc42c8fe874117ad07cd6a336a6ae2'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'actual_spend'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '12e73430fb9d457a8e3146b5962a1dcd'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: '68aecf0bdc1444de96908c53c2fbef57'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '18a2c3d3787d4701ba2ffad5f25c46c3'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'd40182a54df64a83a4ba3a3e224bd4fc'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '19fe9a4e2fd04358920fa33fafa4e38a'
-                        deleted: false
-                        key: {
-                            name: 'var__m_sys_hub_flow_input_59fe9a4e2fd04358920fa33fafa4e36d'
-                            element: 'current'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: '1a40f37b2a4a4972b251b507efe2da64'
-                        deleted: false
-                        key: {
-                            name: 'Budget Variance Analysis'
-                        }
-                    },
-                    {
-                        table: 'sys_hub_flow_input'
-                        id: '1dfe9a4e2fd04358920fa33fafa4e38e'
-                        deleted: false
-                        key: {
-                            model: '59fe9a4e2fd04358920fa33fafa4e36d'
-                            element: 'table_name'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '1e6629ee0b624f118c706b03c15adee1'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'actual_spend'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '1ef205ae861e4ebcb1fbf5d4c18b0572'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'vendor'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '1fb35856c6824f72a4195796341322ea'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'expense_date'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '21bfc47c1caa4bb6be4e2b068f4bcd97'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'monthly_budget'
-                        }
-                    },
-                    {
-                        table: 'sys_hub_flow_input'
-                        id: '235662ca2fd44358920fa33fafa4e32c'
-                        deleted: false
-                        key: {
-                            model: '87026c07a52f47c1b7cf4afa304a80f8'
-                            element: 'table_name'
-                        }
-                    },
-                    {
-                        table: 'sys_hub_flow_input'
-                        id: '235662ca2fd44358920fa33fafa4e3e6'
-                        deleted: false
-                        key: {
-                            model: '2f5662ca2fd44358920fa33fafa4e3e1'
-                            element: 'current'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_config'
-                        id: '23ffb48c9ba9490896cd0798b14a5761'
-                        deleted: true
-                        key: {
-                            agent: '187ad954a1b645bb857ed9c0bd09bd03'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '2797acd5df564a7bb8e6ab43f706d2eb'
-                        deleted: true
-                        key: {
-                            agent: '66516ee4af0547baa049da8b164c28f2'
-                            tool: '70854bae3b4272900ad1a021a3e45a34'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '287976a3310c4fb692503bf3c3e2d8c3'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'variance_pct'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '2a6e30131096474aabd5a7343fc4bca4'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'status'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '2d68b0d4729643e8bd06e17ee0d523a1'
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: '1a40f37b2a4a4972b251b507efe2da64'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '306e0ff99d8e4a198298882fd9e8ef06'
-                        deleted: true
-                        key: {
-                            agent: '66516ee4af0547baa049da8b164c28f2'
-                            tool: '3885136dcb9143f09b320af29f31d305'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '31329368cace4e559bd6a96d2a65d52d'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sys_hub_flow_input'
-                        id: '3356a2ca2fd44358920fa33fafa4e333'
-                        deleted: false
-                        key: {
-                            model: '2f5662ca2fd44358920fa33fafa4e3e1'
-                            element: 'table_name'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '34126bea279648a08f42c7b09399c548'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'fiscal_month'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '377c45cbecb14a9da2ad772a8d734458'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'cost_center'
                         }
                     },
                     {
                         table: 'sys_choice'
-                        id: '3a572e9e03e64d6785646c5506a3c3fa'
+                        id: '0b4a30a33d6e4fbaac24d6b4e834ccc5'
                         key: {
                             name: 'x_snc_khepri_budget_history'
                             element: 'status'
@@ -951,39 +391,107 @@ declare global {
                         }
                     },
                     {
-                        table: 'sys_dictionary'
-                        id: '3af8684f56cc47bdb483f061ef433d5a'
+                        table: 'sn_aia_agent_tool_m2m'
+                        id: '0f778e9f44ea43c5b4bd13c55d518923'
                         key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'priority'
-                        }
-                    },
-                    {
-                        table: 'sys_db_object'
-                        id: '3ec62473b15945b79df17f08d9558715'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
+                            agent: '53e05c74f31d4534afddc3aff5609449'
+                            tool: '0768f1dffbd246a0b1e59e5dd0b64962'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '405a413ba01841a683ee4c22349b0ff2'
+                        id: '10fffaa101c74a54b299234a64b70b38'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'status'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '127259357415406081b6c572389079be'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '13f55aa24e4743258ce165cd57efd17a'
                         key: {
                             name: 'x_snc_khepri_expense_event'
-                            element: 'invoice_id'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_tool'
+                        id: '1db8d563ec0b4b0583568ff8fe7e5ddd'
+                        key: {
+                            name: 'Extract Cost Center'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '41e2936c4a634b5f858858d81983cbf7'
+                        id: '1debc6161e9d49c482995a8f0aa3cfaa'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'region'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '1f6d216cd36e49f8b96a2f873a80655a'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'actual_spend'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '2066039368d24b349af41278eda034f7'
                         key: {
                             name: 'x_snc_khepri_expense_transactions'
-                            element: 'description'
+                            element: 'cost_center'
+                            language: 'en'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '447d65eb667a40d99bd6c937df65c7b3'
+                        id: '239e4dcf1270425784ca3272aad49d7c'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'billing_period'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '267df46324fe4b299d4ddc03a37b1afa'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'owner'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '30def247d6704c6b87bdf9597c3ebed1'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '34488b3245674dc290cbba029244c2d9'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'variance_pct'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '36196ab177f840e387f448fcde4734bd'
                         key: {
                             name: 'x_snc_khepri_cc_budget_history'
                             element: 'cost_center_description'
@@ -991,57 +499,197 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '45e854d10e694103b4df855c49da7404'
+                        id: '389704aee32a4ba1bdbf6283b2628a14'
                         key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'monthly_budget'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_config'
-                        id: '462de6178ee64cdcaf141eece0b298b1'
-                        deleted: true
-                        key: {
-                            agent: '3c89edbc8c0b4e2cb74e6c78923ba83d'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_version'
-                        id: '483ccd18250d452bafae205c7273e826'
-                        key: {
-                            target_id: '53e05c74f31d4534afddc3aff5609449'
-                            version_name: 'v1'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '4861e5fddaa24736b4ee7a56c3fb3ca7'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'bfd31a6bdb4349fda94166329e76e908'
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'expense_id'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '4e39e7a33bb448518c7a84df5e7a8c6d'
+                        id: '3a31826c92c244b1b52d59bd8d8b3b56'
                         key: {
                             name: 'x_snc_khepri_cc_budget_history'
                             element: 'status'
                         }
                     },
                     {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '4fa0b80eb530421489a16f6232328104'
-                        deleted: true
+                        table: 'sys_dictionary'
+                        id: '3d6e29e1e15a4a0daf747401bb89dfe3'
                         key: {
-                            agent: '187ad954a1b645bb857ed9c0bd09bd03'
-                            tool: 'f8fe5a193cea479fbd3017cab7f30214'
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'NULL'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: '4fac14c7cce441e7b6cf64617d1021ba'
+                        id: '3da508ade0a64fb882874e6fb24fe706'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '40be613b84b54d28baf5a40138719262'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'owner'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '4197dcdd4f3549b88dfe3f3d9104972c'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'fiscal_year'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '42f4b0566f5d435b9ce8a6dcdb83653a'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '4555d2888dd9422ebf04448e6db9898c'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'actual_spend'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '4773ca05334043c89de1ae79f0b4a1ba'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'vendor'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '48e55d10c19c4cdba88f7bd259cfffa2'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'expense_category'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '4d313d4c5fa2489aa0fcc8af6dae38ad'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'correlation_id'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '4d754025822b4c67be3b101fedb1588c'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'expense_date'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '51b6a1822eb048238195eae49545857f'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'gl_account'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_agent_tool_m2m'
+                        id: '53868a92520f497fbbd39b7860b9f3d6'
+                        key: {
+                            agent: '1134f66ab132451b923710e6b1cb8786'
+                            tool: '1db8d563ec0b4b0583568ff8fe7e5ddd'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '5483baf67ebb4a6cbbd3195f20a8981e'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'timestamp'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '54eac45f9b7f4819aa48bc91f4d97ea0'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'cost_center'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '55134da283dd4a0b890273931e703b94'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'amount'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '59fdc9c646cd469c9392c74883ee649e'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'gl_account'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '5d7c8f6a80204669923ebcca1959a8a7'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'cost_center'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '5eeddb98ad684eb09101af5aad9f896d'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'actual_spend'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '61d9ffcee36c41438790dae64c412518'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'invoice_id'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '673d6c540d13404ba19b4b9b33176f00'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'service_category'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '692b537af3244db09b6144084ce8a786'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'correlation_id'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '6b99a254dcdf44f486e039bf9d467045'
                         key: {
                             name: 'x_snc_khepri_expense_event'
                             element: 'timestamp'
@@ -1049,979 +697,56 @@ declare global {
                         }
                     },
                     {
-                        table: 'sys_choice'
-                        id: '5022fd4b27ba4e819ae6ba6a0d944ecd'
+                        table: 'sn_aia_tool'
+                        id: '6defe3c6eb064d76ad8ef11b4c0026f4'
                         key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'status'
-                            value: 'under_budget'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '517228473fc74f358d2c4db89c2bf21c'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'cost_center'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '5240e5b207524eccbb2182f7b67c20b1'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'amount_usd'
+                            name: 'Budget Variance Analysis'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: '55fe5a4e2fd04358920fa33fafa4e3cf'
-                        deleted: false
-                        key: {
-                            name: 'var__m_sys_hub_flow_input_f3c84e4553e04e2fbde6db3d595acd97'
-                            element: 'table_name'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '58e8936e856e4995a696bc298e7cfec4'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'cost_center_description'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '59da88f59df841b08f430103805e3754'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'amount_usd'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '59e7a839855145879e028468faba7f69'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'variance'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '5e0701b7e900430d982b48b2b4da1eb4'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'bb8695d03b5e72900ad1a021a3e45ad4'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '5e691dd808d94d289b38da880aca1408'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'vendor'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '60faa6490361405aa9fa7aa5f628e166'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'NULL'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '63cb6f57e77b4b93b92498ecd4f80b8d'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'amount'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '63e04f1a2f148b58920fa33fafa4e3eb'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.split'
-                            position: '5'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '65fd79600f4f44229a5c312c8cd5d385'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'vendor'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '66949e668eb8449d918f0d81ca3cffbf'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'variance_pct'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '67264cc8b08149e3a93a724883d5d859'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'fiscal_year'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '67e04f1a2f148b58920fa33fafa4e3e9'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'actual_spend'
-                            position: '3'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '67e04f1a2f148b58920fa33fafa4e3f0'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'status'
-                            position: '11'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_version'
-                        id: '6b3fb62cd17c4d8da904c8819c2b5d36'
-                        deleted: true
-                        key: {
-                            target_id: '187ad954a1b645bb857ed9c0bd09bd03'
-                            version_name: 'Khepri Budget Analyst'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '6be04f1a2f148b58920fa33fafa4e3ee'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.end_split'
-                            position: '9'
-                        }
-                    },
-                    {
-                        table: 'ua_table_licensing_config'
-                        id: '6dd3c9439b944e658fa187e1699f9146'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '6f9d096a50c941c5acd80099dc67bf46'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: '3885136dcb9143f09b320af29f31d305'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '6fe04f1a2f148b58920fa33fafa4e3b5'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'monthly_budget'
-                            position: '1'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '6fe04f1a2f148b58920fa33fafa4e3ec'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'variance'
-                            position: '7'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '7051166ceb8b4778971bad27406fe628'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'description'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '712235cfa7c04b00b92cd4497188e95a'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'cost_center'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_security_acl_role'
-                        id: '71d2d9ff927e42ff968bfa0b13ac868a'
-                        deleted: true
-                        key: {
-                            sys_security_acl: '301e4b46c070481688c6c53d97bf638c'
-                            sys_user_role: 'b0593b350a0a0aa7001d689e4542dc28'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '72cba32440444daab56d37d18090d9f4'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'cost_center'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '77663b116f0a4a67afbb09289640a621'
+                        id: '6df66329134548ff899e78f2cba07c06'
                         key: {
                             name: 'x_snc_khepri_expense_event'
                             element: 'gl_account'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '7864294c7e9b4cad856a1dbc34207faf'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'owner'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '7c3141d0b6a241f18544b2756d370c08'
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: '0768f1dffbd246a0b1e59e5dd0b64962'
-                        }
-                    },
-                    {
-                        table: 'sys_db_object'
-                        id: '8012ac9615d94eda8b4cca7590fe3504'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '81e01c4f48624f21828e8bfe41396114'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'fiscal_year'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '82a050e7b74f41d98e2a302ac2034e63'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'fiscal_year'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '82a06de845ad41b19180edc2b4ed7106'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '84935b4f4a284dfaa7be0f4d02ca8ba5'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'dd5f735c102644b39f56f7969097bcec'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '84c6fc3c9bee49a9a1b371bff095a5b2'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'source_system'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '85866854bca34057ba456ba3980a1220'
-                        deleted: true
-                        key: {
-                            agent: '3c89edbc8c0b4e2cb74e6c78923ba83d'
-                            tool: 'ccdf0f447aa84ef3b567f085bf9f11ad'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: '85a2c8a3476447aea4eeb71e521962e6'
-                        deleted: false
-                        key: {
-                            name: 'Extract Cost Center'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '86e256723ac644c19b89a6b062ae1309'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'correlation_id'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '87b2fe65cd34488e829a5930cd0b3761'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'event_type'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_config'
-                        id: '8b02d3b8e4204f57873aad2703fc0aca'
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '8b2b09473bce426a98b133435c65a143'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'fiscal_year'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_version'
-                        id: '8ca7c515c37a4c5c8c17a074be8e9867'
-                        deleted: true
-                        key: {
-                            target_id: '53e05c74f31d4534afddc3aff5609449'
-                            version_name: 'Forecast Variance Khepri'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '8ec171da88b2408eaed54483aed767ef'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'service_category'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '8fbe76f2017f46ffb5fc38a13dbff9f0'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'billing_period'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '93001d5900944b27b1007a532cf0ef8d'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'vendor'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '943b3761bfd74df598ad208440a8182a'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'monthly_budget'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_db_object'
-                        id: '95bda4558904458cbe976799b707edba'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '95ffe91c79f14584975f5e82cf5fb7e3'
+                        id: '6faad3e2b0994eeb8c25760e05a7526b'
                         key: {
                             name: 'x_snc_khepri_expense_event'
-                            element: 'business_unit'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '977dbb5070a74dd9a78758a580c6d705'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'variance'
-                            language: 'en'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '9802635c59d84022b358b44b2661b192'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '999c0a26d9304763908b344c75a1eb07'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'event_type'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: '9a9a8032357e40dbb6ce9d8e64e03b91'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: '70854bae3b4272900ad1a021a3e45a34'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '9b8d1612c4a84a75a556b6d701756c8a'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'NULL'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '9d2a9aaa2871433093d7490d732390c3'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'billing_period'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '9e2e5c217c894b58a553b9be2f78491e'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'monthly_budget'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'a0a08dad1ff1491c9285208148518065'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'gl_account'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'a2171069de434a16858fb414c77eec2e'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'priority'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'a22a04863d9c478fb480fed39f07c42b'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'cost_center'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'a4843a0261b54ac98a55cd1a9de3fb8a'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'owner'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'a5ee1eb46c23409eae2563cc9051cae6'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: '0eb806c048114bb3af30090e28e80135'
-                        }
-                    },
-                    {
-                        table: 'ua_table_licensing_config'
-                        id: 'a650401f890b418e8dc382f8cc4098a8'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'a7998e9cf28b47328d3cce6c546772af'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'NULL'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'a8368cbdcc9b448e8f7ff06fd4b07d5e'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'fiscal_month'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'a8756b9cac934ed08174cd57df006e7c'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'cost_center'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'a881b2d57f5c46f1836c42a1646ba09f'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'service_category'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'a944722dfa4f4435acca7102df6e972b'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'actual_spend'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'addb0e98474b4ee48bacf7a7234ecdc4'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'fiscal_month'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: 'af223965fe204135bf9b208148953bb8'
-                        key: {
-                            name: 'Khepri Extract Cost Center'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'b01a94f5c02546f1a3975a9a35469ec1'
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'ba8a43a9dd034717aa2e24697bd725d3'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_version'
-                        id: 'b0a52cd4c609422c88868454025c7d40'
-                        deleted: true
-                        key: {
-                            target_id: '3c89edbc8c0b4e2cb74e6c78923ba83d'
-                            version_name: 'Khepri Test Agent'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'b1cb716199114fd3aa796039d292d4dc'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'fiscal_month'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'b23a928d2e334c599edbab5edff2086d'
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'b85683d49c334deb9020b0818dbc5764'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'b398ca9648984a078b46a38b82f1ed8a'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'cost_center'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: 'b85683d49c334deb9020b0818dbc5764'
-                        key: {
-                            name: 'Khepri Expense Transactions RAG'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: 'ba8a43a9dd034717aa2e24697bd725d3'
-                        key: {
-                            name: 'Khepri Neon SQL Query'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'bb56a2ca2fd44358920fa33fafa4e33a'
-                        deleted: false
-                        key: {
-                            name: 'var__m_sys_hub_flow_input_2f5662ca2fd44358920fa33fafa4e3e1'
-                            element: 'table_name'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'ua_table_licensing_config'
-                        id: 'bbc252ee67744107b1031970dd7b1bfe'
-                        key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                        }
-                    },
-                    {
-                        table: 'sys_choice_set'
-                        id: 'bbe9bdd5a8454b198c55a5d910b5726c'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'status'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'bc881544cf1c462b9fff583185a41eae'
+                        id: '6fe0d2251edf48b291d6ffbc2070ee53'
                         key: {
                             name: 'x_snc_khepri_expense_event'
                             element: 'invoice_id'
-                            language: 'en'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'be58d673383a48d985790a8e614160c2'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'correlation_id'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: 'bfd31a6bdb4349fda94166329e76e908'
-                        deleted: true
-                        key: {
-                            name: 'Khepri Budget Variance Analysis'
-                        }
-                    },
-                    {
-                        table: 'sys_security_acl_role'
-                        id: 'c20b5ac41f95468a973f9a2ca33d530c'
-                        key: {
-                            sys_security_acl: '0e05698e47064e4ebf4dfc68613ea4fb'
-                            sys_user_role: 'b0593b350a0a0aa7001d689e4542dc28'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'c21b7b3126424adab346aa582a538f8a'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'expense_id'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'c40b0d0de34949ab85a296b27bafe69f'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'expense_category'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'c5c43d11e44a4f2d9d077937e2790dcc'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'gl_account'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_hub_flow_input'
-                        id: 'c5fe5a4e2fd04358920fa33fafa4e35a'
-                        deleted: false
-                        key: {
-                            model: 'f3c84e4553e04e2fbde6db3d595acd97'
-                            element: 'current'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'c64dc238fe6f40099065cd756b00f937'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'expense_id'
-                        }
-                    },
-                    {
-                        table: 'sys_agent_access_role_configuration'
-                        id: 'c6fcde8e2f904358920fa33fafa4e329'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'c9b7799091f94d679e9c30d10a5ebac7'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'business_unit'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: 'ccdf0f447aa84ef3b567f085bf9f11ad'
-                        deleted: true
-                        key: {
-                            name: 'Khepri System Ping'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'cd0ae8291d464f24afba3c8154af9086'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'event_id'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'cd33e882defa4b3dbf0f20d8eb3ee4ea'
-                        deleted: true
-                        key: {
-                            agent: '66516ee4af0547baa049da8b164c28f2'
-                            tool: 'bb8695d03b5e72900ad1a021a3e45ad4'
-                        }
-                    },
-                    {
-                        table: 'sys_hub_flow_input'
-                        id: 'cdfe5a4e2fd04358920fa33fafa4e395'
-                        deleted: false
-                        key: {
-                            model: 'f3c84e4553e04e2fbde6db3d595acd97'
-                            element: 'table_name'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'ceb0919df37b47eba1ba3c0ff674d3e9'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'amount'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'cebb43f1b8e24155977bb664d0943c25'
+                        id: '7178745d90ca490e93d9bc3a5c63f425'
                         key: {
                             name: 'x_snc_khepri_cc_budget_history'
-                            element: 'variance'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'cfc2e60c79fa4ad7913ce6512075291f'
-                        key: {
-                            name: 'x_snc_khepri_budget_history'
                             element: 'cost_center_description'
                             language: 'en'
                         }
                     },
                     {
-                        table: 'sys_hub_flow_input'
-                        id: 'd1fe9a4e2fd04358920fa33fafa4e372'
-                        deleted: false
-                        key: {
-                            model: '59fe9a4e2fd04358920fa33fafa4e36d'
-                            element: 'current'
-                        }
-                    },
-                    {
-                        table: 'sys_hub_flow_input'
-                        id: 'd35662ca2fd44358920fa33fafa4e302'
-                        deleted: false
-                        key: {
-                            model: '87026c07a52f47c1b7cf4afa304a80f8'
-                            element: 'current'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: 'd40182a54df64a83a4ba3a3e224bd4fc'
-                        deleted: true
-                        key: {
-                            name: 'Search for Expense Transactions History'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'd4866f6978e84bc7b49e24a97abe3f9d'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'NULL'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'd8d4d16ca3de44959a8a046b6e9ae3df'
-                        deleted: true
-                        key: {
-                            agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'f8fe5a193cea479fbd3017cab7f30214'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'd9c8536fe7f647ffa3ba1984ded80d0a'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'expense_date'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'ua_table_licensing_config'
-                        id: 'da3932e2f64c4526ba99334a789a8b1c'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
-                        }
-                    },
-                    {
                         table: 'sys_dictionary'
-                        id: 'daed33db80fd46babf3475becce3f737'
+                        id: '72034674ee5441fa925cbcdeb9404457'
                         key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'region'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: 'dcd72d69295d4caeaad8ec10eaa3954b'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_tool'
-                        id: 'dd5f735c102644b39f56f7969097bcec'
-                        deleted: true
-                        key: {
-                            name: 'Query Neon Database via MCP'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'df1cb6bcc8b4451988bca8078afbfb66'
-                        deleted: true
-                        key: {
-                            agent: '710520460df942658b4932b93e0f05e6'
-                            tool: 'f8fe5a193cea479fbd3017cab7f30214'
-                        }
-                    },
-                    {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'e30e53ff862c4536a807bb05364c6bf6'
-                        deleted: true
-                        key: {
-                            agent: '66516ee4af0547baa049da8b164c28f2'
-                            tool: '68aecf0bdc1444de96908c53c2fbef57'
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'fiscal_year'
                         }
                     },
                     {
                         table: 'sys_choice'
-                        id: 'e35ba04026e84548bf73c121face8b3d'
+                        id: '72647d109a474e6ebfd586298db3962d'
                         key: {
                             name: 'x_snc_khepri_budget_history'
                             element: 'status'
@@ -2029,189 +754,306 @@ declare global {
                         }
                     },
                     {
-                        table: 'sys_ui_element'
-                        id: 'e3e04f1a2f148b58920fa33fafa4e3b4'
+                        table: 'sys_dictionary'
+                        id: '745e8ce04d0e4bfb8a3e043447abe3e4'
                         key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.begin_split'
-                            position: '0'
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'vendor'
                         }
                     },
                     {
-                        table: 'sys_ui_element'
-                        id: 'e3e04f1a2f148b58920fa33fafa4e3ea'
+                        table: 'sys_documentation'
+                        id: '764027220e8745feaebe193314820014'
                         key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'cost_center'
-                            position: '4'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: 'e7e04f1a2f148b58920fa33fafa4e3ef'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'cost_center_description'
-                            position: '10'
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'monthly_budget'
+                            language: 'en'
                         }
                     },
                     {
                         table: 'sn_aia_agent_tool_m2m'
-                        id: 'e7e4703a9d72440f87ccd9f5ae077688'
-                        deleted: true
+                        id: '7fe67b20ecf0426886852551e53c1419'
                         key: {
                             agent: '53e05c74f31d4534afddc3aff5609449'
-                            tool: 'af223965fe204135bf9b208148953bb8'
+                            tool: 'b85683d49c334deb9020b0818dbc5764'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_tool'
+                        id: '8062c1f0c9194223b23b1a0c28e5606a'
+                        key: {
+                            name: 'Khepri CC Budget History RAG'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '81d2639af9304876a0409177224844c9'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '81f7f5f071394d2a928e0732eb4adf83'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'actual_spend'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '824e5dbb5a4e4e739eb33ee52bbd5083'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'cost_center'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '87aa20142a81415294b3c03aa320bf86'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'status'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '894b1e05cfb942d9858caa0b5458566c'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'priority'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '93c19867585f48c5bf2f29c33953d0f5'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'fiscal_month'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '96578620038f49a3a137c192b8547898'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'status'
+                            value: 'under_budget'
                         }
                     },
                     {
                         table: 'sys_db_object'
-                        id: 'e8a44d41589a4789a874882aa9ffa301'
+                        id: '9763022e8b7c4ae8a47160cf3b396f17'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '9d27ee85d8344211a7c3da42d88f9304'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_agent_tool_m2m'
+                        id: '9e22a1006cac41b794f16cda2b86a40f'
+                        key: {
+                            agent: '1134f66ab132451b923710e6b1cb8786'
+                            tool: '6defe3c6eb064d76ad8ef11b4c0026f4'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9e934b5f83c04def99cbeb5249f17b2d'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'fiscal_month'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9edd4ee5fd71425b935b439e2827d071'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'variance'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a083201edaf3419b96fcf696ce7a63a2'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'billing_period'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'a28cbf06b6da42dc9211b818a9fa8b12'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'cost_center'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a3ce82e6e04041f4887b0288a47c462e'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'gl_account'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a52c480d55d4478293c2561424d3e85a'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'business_unit'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: 'a882de56e8d6416fba62a347c774b839'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'aabe4c76cc4841d1a34b2843ba5bb4a0'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'event_id'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'ad0e81e478854119ad13ba99eee1f63e'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'vendor'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'af6601fac134443da0fe34e772933b26'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'af8d7eae9bb94246b896b155eaea9b7a'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'fiscal_month'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'b0a4c8bac40840d1abafd4252202eb5f'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'monthly_budget'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b111b73fcf174801809b5990f4ee1844'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'fiscal_year'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b182d354d09549ff9ff7a0ca07ff0b3d'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'monthly_budget'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b1a5b9c9390642c094f8fed74f60d0e8'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'variance'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b85e7b41958d45de9b380d5edfadef17'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'expense_id'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: 'b9acdb2cad354ece845f7101f200b6f6'
                         key: {
                             name: 'x_snc_khepri_budget_history'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'e9fe9a4e2fd04358920fa33fafa4e3bb'
-                        deleted: false
-                        key: {
-                            name: 'var__m_sys_hub_flow_input_59fe9a4e2fd04358920fa33fafa4e36d'
-                            element: 'table_name'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_section'
-                        id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
+                        id: 'ba98da0158f34ec8aad24fbff280987a'
                         key: {
                             name: 'x_snc_khepri_cc_budget_history'
-                            caption: 'NULL'
-                            view: {
-                                id: 'Default view'
-                                key: {
-                                    name: 'NULL'
-                                }
-                            }
-                            sys_domain: 'global'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: 'ebe04f1a2f148b58920fa33fafa4e3b6'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'fiscal_month'
-                            position: '2'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: 'ebe04f1a2f148b58920fa33fafa4e3ed'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'fiscal_year'
-                            position: '8'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'eda1cf3154fc4af7a0f5ccd976f1daaf'
-                        key: {
-                            name: 'x_snc_khepri_expense_event'
                             element: 'cost_center'
                             language: 'en'
                         }
                     },
                     {
-                        table: 'sys_security_acl_role'
-                        id: 'eeaab481048c4da28aaad953e2c8775f'
-                        deleted: true
+                        table: 'sys_dictionary'
+                        id: 'bb71752fb9814ee78fa3f611bb400f5e'
                         key: {
-                            sys_security_acl: 'a369a44d4bf149ca90562ec3876a6804'
-                            sys_user_role: 'b0593b350a0a0aa7001d689e4542dc28'
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'event_type'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_agent_config'
+                        id: 'bb8e6158e13f44f28eb78db4ee78d9fa'
+                        key: {
+                            agent: '1134f66ab132451b923710e6b1cb8786'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_version'
+                        id: 'bc0e278f6eb348e386a30756286c3490'
+                        key: {
+                            target_id: '1134f66ab132451b923710e6b1cb8786'
+                            version_name: 'v1'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'ef5662ca2fd44358920fa33fafa4e326'
-                        deleted: false
+                        id: 'bc8257a2ed284458bee709a006f78e8f'
                         key: {
-                            name: 'var__m_sys_hub_flow_input_87026c07a52f47c1b7cf4afa304a80f8'
-                            element: 'current'
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'NULL'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'ef5662ca2fd44358920fa33fafa4e358'
-                        deleted: false
-                        key: {
-                            name: 'var__m_sys_hub_flow_input_87026c07a52f47c1b7cf4afa304a80f8'
-                            element: 'table_name'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: 'efe04f1a2f148b58920fa33fafa4e3eb'
-                        key: {
-                            sys_ui_section: {
-                                id: 'ebe00f1a2f148b58920fa33fafa4e3ea'
-                                key: {
-                                    name: 'x_snc_khepri_cc_budget_history'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'variance_pct'
-                            position: '6'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'f20d46595990401898148c8a671675d6'
+                        id: 'bef819f5b4bc4db08d18bb975ad6145d'
                         key: {
                             name: 'x_snc_khepri_budget_history'
                             element: 'status'
@@ -2219,26 +1061,33 @@ declare global {
                         }
                     },
                     {
-                        table: 'sn_aia_agent_tool_m2m'
-                        id: 'f2bae9460d904abc9f0cba62fbaabcbf'
-                        deleted: true
+                        table: 'sys_dictionary'
+                        id: 'c01bb4ce1c484581b58557066643f49d'
                         key: {
-                            agent: '66516ee4af0547baa049da8b164c28f2'
-                            tool: 'f8fe5a193cea479fbd3017cab7f30214'
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'business_unit'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'cd52bece16b54e1ba0a80e6009228401'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'NULL'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'f2ed8ea1188c4643ae612f91260ca8a0'
+                        id: 'ce2b388b75ea4926a2b333caa0c93bbf'
                         key: {
-                            name: 'x_snc_khepri_cc_budget_history'
-                            element: 'cost_center_description'
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'source_system'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: 'f56715b863ef44e09a9b283c4c438098'
+                        id: 'cf3803e8679f4665b387a7d5fa6616ae'
                         key: {
                             name: 'x_snc_khepri_expense_event'
                             element: 'event_id'
@@ -2246,46 +1095,225 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'fb2ab43285f64cbe94b8e6ae2903f080'
+                        id: 'cf644eda0ff1466c88c0654ae05b38fc'
                         key: {
-                            name: 'x_snc_khepri_expense_event'
-                            element: 'region'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'fb50f98e4a5c4d899167050b88170291'
-                        key: {
-                            name: 'x_snc_khepri_expense_transactions'
-                            element: 'expense_category'
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'NULL'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: 'fc00c8f89bd047f4a7ed5c458a2966c8'
+                        id: 'd0977129d1d348fbbc7c214835adcec2'
                         key: {
-                            name: 'x_snc_khepri_budget_history'
-                            element: 'status'
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'expense_category'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'ff56a2ca2fd44358920fa33fafa4e308'
-                        deleted: false
+                        id: 'd1818824c7924801ad7cdfbb4aee5479'
                         key: {
-                            name: 'var__m_sys_hub_flow_input_2f5662ca2fd44358920fa33fafa4e3e1'
-                            element: 'current'
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'event_type'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'd39af9ec021e4d8fa029125c081b85ba'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'fiscal_month'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'd6d6d1d8898d44248c65a5be13c00782'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'cost_center_description'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'd7bebb0a3fb842218c5fe914a990f663'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'description'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'd879a8a240b3486fb721a09d79663819'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'cost_center'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'da9e1b7f3e2e406ab3820662c718d778'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'service_category'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_tool'
+                        id: 'dc1696ee9af64d828a245d53508206f7'
+                        key: {
+                            name: 'Khepri Extract Cost Center'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'dcc8cbf25df1414fbb365bcfcea67c61'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'cost_center'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'df0087efb38b4e0c8d580fef217b387e'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'priority'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'e413941bdcc14751b1b0a77958260892'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'amount_usd'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_tool'
+                        id: 'e60f652a11a54b738b895b9d0d670999'
+                        key: {
+                            name: 'Khepri Expense Transactions RAG'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'e7fa6ec0fcf3464c8a1666ceee822fc3'
+                        key: {
+                            name: 'x_snc_khepri_cc_budget_history'
+                            element: 'variance'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'e9f89aa872fd46af9815ae56b5d13f6f'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'ea6d8b8c1839429aa68bd4f0113ca210'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'monthly_budget'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'eb217f765ebb43618cbac5fe7483f5cf'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'source_system'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_agent_tool_m2m'
+                        id: 'ed3bcab396e144a19b400e81c682eeb2'
+                        key: {
+                            agent: '53e05c74f31d4534afddc3aff5609449'
+                            tool: 'ba8a43a9dd034717aa2e24697bd725d3'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'edfbbe2f36324befb020f968405db167'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'expense_date'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'ffcfc6fc82424fbfa824608af9a74d0b'
+                        id: 'ee617a288a5a479494555923375c4137'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'vendor'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'ef90292e1a4c44c684e41a4b8f2d9c8d'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'cost_center_description'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'f1b8d963da2b4a0f815d7d036c29f8dd'
                         key: {
                             name: 'x_snc_khepri_cc_budget_history'
-                            element: 'variance'
+                            element: 'variance_pct'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'f5408816ebac4ce8b69f3530e9f68266'
+                        key: {
+                            name: 'x_snc_khepri_budget_history'
+                            element: 'variance_pct'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'f6b8c967c860421ea3d511cad115a39e'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'amount'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'f83a555ba77b41f9ba04ac73f120afff'
+                        key: {
+                            name: 'x_snc_khepri_expense_transactions'
+                            element: 'description'
+                        }
+                    },
+                    {
+                        table: 'sn_aia_tool'
+                        id: 'fa3848dca2dc4148b93fdba3b9c92295'
+                        key: {
+                            name: 'Khepri Neon SQL Query'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'fcea95afe9e644b2b1987837ba92b5f5'
+                        key: {
+                            name: 'x_snc_khepri_expense_event'
+                            element: 'amount_usd'
                             language: 'en'
                         }
                     },

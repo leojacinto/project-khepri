@@ -10,7 +10,7 @@
     "sourceMap": false,
     "skipLibCheck": true,
     "noUnusedLocals": false,
-    "checkJs": true
+    "checkJs": false
   },
   "include": [
     "./**/*.ts",

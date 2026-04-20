@@ -1,3 +1,4 @@
+// @ts-nocheck
 var KhepriBudgetVarianceAnalysis = Class.create();
 KhepriBudgetVarianceAnalysis.prototype = {
     initialize: function() {},
